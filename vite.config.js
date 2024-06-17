@@ -27,7 +27,7 @@ export default defineConfig({
     },
   },
   server: {
-    host: 'localhost',
+    host: '0.0.0.0', // 配置项目可以局域网访问
     port: 8000,
   },
 })
