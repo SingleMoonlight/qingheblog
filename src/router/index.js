@@ -1,10 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import IndexPage from '@/pages/IndexPage.vue'
+import BlogPage from '@/pages/BlogPage.vue'
 import NotFoundPage from '@/pages/NotFoundPage.vue'
 
 const routes = [
-    { path: '/', component: IndexPage },
-    { path: '/notfound', component: NotFoundPage },
+    { path: '/', name: 'index', component: IndexPage },
+    { path: '/show/:path', name: 'show', component: BlogPage },
+    { path: '/notfound', name: 'notfound', component: NotFoundPage },
     { path: '/:pathMatch(.*)', redirect: '/notfound' },
 ];
 

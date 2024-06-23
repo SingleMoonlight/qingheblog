@@ -2,8 +2,10 @@
 import BlogItemIcon from '@/components/BlogItemIcon.vue'
 import { splineSceneUrl, blogList } from '@/utils/constant'
 import { onMounted, ref } from 'vue'
+import { useRouter } from 'vue-router'
 
 const showBlogItem = ref(false)
+const router = useRouter()
 
 function handleSpaceKeyDown() {
     if (showBlogItem.value) {
@@ -19,12 +21,21 @@ function keyHandler(e) {
     }
 }
 
-function openBlogItemPage(e) {
+function openBlogItemPage() {
     showBlogItem.value = true;
 }
 
 function closeBlogItemPage() {
     showBlogItem.value = false;
+}
+
+function openBlog(blogPath) {
+    router.push({
+        name: 'show',
+        params: {
+            path: blogPath,
+        }
+    });
 }
 
 onMounted(() => {
@@ -40,11 +51,12 @@ onMounted(() => {
             </div>
         </div>
         <Transition name="fade" mode="out-in">
-            <div class="blog-item-layer" v-show="showBlogItem" @click="closeBlogItemPage" @touchstart="closeBlogItemPage">
+            <div class="blog-item-layer" v-show="showBlogItem" @click="closeBlogItemPage"
+                @touchstart="closeBlogItemPage">
                 <div class="blog-item-container">
                     <div class="blog-item" v-for="(item, index) in blogList" :key="index">
                         <div class="blog-item-button">
-                            <div class="blog-item-icon">
+                            <div class="blog-item-icon" @click="openBlog(item.path)">
                                 <BlogItemIcon :name="item.icon"></BlogItemIcon>
                             </div>
                         </div>
