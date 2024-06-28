@@ -4,7 +4,7 @@ import { splineSceneUrl, blogList } from '@/utils/constant'
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
-const showBlogItem = ref(false)
+const showBlogItem = ref(true)
 const router = useRouter()
 
 function handleSpaceKeyDown() {
