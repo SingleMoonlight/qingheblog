@@ -30,12 +30,13 @@ function closeBlogItemPage() {
 }
 
 function openBlog(blogPath) {
-    router.push({
-        name: 'show',
+    let newPageUrl = router.resolve({
+        name: "show",
         params: {
             path: blogPath,
         }
     });
+    window.open(newPageUrl.href, '_blank');
 }
 
 onMounted(() => {
