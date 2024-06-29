@@ -1,6 +1,7 @@
 <script setup>
 import BlogItemIcon from '@/components/BlogItemIcon.vue'
-import { splineSceneUrl, blogList } from '@/utils/constant'
+import CopyrightStatement from '@/components/CopyrightStatement.vue'
+import { splineSceneUrl, blogList, copyrightInfo } from '@/utils/constant'
 import { onMounted, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
@@ -66,6 +67,9 @@ onMounted(() => {
                 </div>
             </div>
         </Transition>
+        <div class="copyright-container">
+            <CopyrightStatement :show-copyright="true" :copyright-info="copyrightInfo" />
+        </div>
     </div>
 </template>
 
@@ -142,6 +146,14 @@ onMounted(() => {
     margin-top: 20px;
     text-align: center;
     font-weight: bold;
+    color: var(--text-color);
+}
+
+.copyright-container {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
     color: var(--text-color);
 }
 </style>

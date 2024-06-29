@@ -8,6 +8,11 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #d0d0d0;
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
