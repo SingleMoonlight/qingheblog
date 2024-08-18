@@ -5,7 +5,7 @@ import NotFoundPage from '@/pages/NotFoundPage.vue'
 
 const routes = [
     { path: '/', name: 'index', component: IndexPage },
-    { path: '/show/:path', name: 'show', component: BlogPage },
+    { path: '/book/:path', name: 'book', component: BlogPage },
     { path: '/notfound', name: 'notfound', component: NotFoundPage },
     { path: '/:pathMatch(.*)', redirect: '/notfound' },
 ];

@@ -3,10 +3,8 @@ import BlogItemIcon from '@/components/BlogItemIcon.vue'
 import CopyrightStatement from '@/components/CopyrightStatement.vue'
 import { splineSceneUrl, blogList, copyrightInfo } from '@/utils/constant'
 import { onMounted, ref } from 'vue'
-import { useRouter } from 'vue-router'
 
 const showBlogItem = ref(true)
-const router = useRouter()
 
 function handleSpaceKeyDown() {
     if (showBlogItem.value) {
@@ -30,16 +28,6 @@ function closeBlogItemPage() {
     showBlogItem.value = false;
 }
 
-function openBlog(blogPath) {
-    let newPageUrl = router.resolve({
-        name: "show",
-        params: {
-            path: blogPath,
-        }
-    });
-    window.open(newPageUrl.href, '_blank');
-}
-
 onMounted(() => {
     window.addEventListener('keydown', keyHandler);
 })
@@ -47,23 +35,25 @@ onMounted(() => {
 
 <template>
     <div class="index-page-container">
-        <div class="spline-layer" @click="openBlogItemPage" @touchstart="openBlogItemPage">
-            <div class="spline-container">
-                <Vue3Spline :scene="{ url: splineSceneUrl }" />
-            </div>
-        </div>
         <Transition name="fade" mode="out-in">
             <div class="blog-item-layer" v-show="showBlogItem" @click="closeBlogItemPage"
                 @touchstart="closeBlogItemPage">
                 <div class="blog-item-container">
                     <div class="blog-item" v-for="(item, index) in blogList" :key="index">
                         <div class="blog-item-button">
-                            <div class="blog-item-icon" @click="openBlog(item.path)">
+                            <a class="blog-item-icon" :href="'book/' + item.path" :underline="false" target="_blank">
                                 <BlogItemIcon :name="item.icon"></BlogItemIcon>
-                            </div>
+                            </a>
                         </div>
                         <div class="blog-item-name">{{ item.name }}</div>
                     </div>
+                </div>
+            </div>
+        </Transition>
+        <Transition name="fade" mode="out-in">
+            <div class="spline-layer" v-show="!showBlogItem" @click="openBlogItemPage" @touchstart="openBlogItemPage">
+                <div class="spline-container">
+                    <Vue3Spline :scene="{ url: splineSceneUrl }" />
                 </div>
             </div>
         </Transition>
