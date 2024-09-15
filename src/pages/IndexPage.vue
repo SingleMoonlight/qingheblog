@@ -1,62 +1,24 @@
 <script setup>
 import BlogItemIcon from '@/components/BlogItemIcon.vue'
 import CopyrightStatement from '@/components/CopyrightStatement.vue'
-import { splineSceneUrl, blogList, copyrightInfo } from '@/utils/constant'
-import { onMounted, ref } from 'vue'
+import { blogList, copyrightInfo } from '@/utils/constant'
 
-const showBlogItem = ref(true)
-
-function handleSpaceKeyDown() {
-    if (showBlogItem.value) {
-        showBlogItem.value = false;
-    } else {
-        showBlogItem.value = true;
-    }
-}
-
-function keyHandler(e) {
-    if (e.code === 'Space') {
-        handleSpaceKeyDown();
-    }
-}
-
-function openBlogItemPage() {
-    showBlogItem.value = true;
-}
-
-function closeBlogItemPage() {
-    showBlogItem.value = false;
-}
-
-onMounted(() => {
-    window.addEventListener('keydown', keyHandler);
-})
 </script>
 
 <template>
     <div class="index-page-container">
-        <Transition name="fade" mode="out-in">
-            <div class="blog-item-layer" v-show="showBlogItem" @click="closeBlogItemPage"
-                @touchstart="closeBlogItemPage">
-                <div class="blog-item-container">
-                    <div class="blog-item" v-for="(item, index) in blogList" :key="index">
-                        <div class="blog-item-button">
-                            <a class="blog-item-icon" :href="'book/' + item.path" :underline="false" target="_blank">
-                                <BlogItemIcon :name="item.icon"></BlogItemIcon>
-                            </a>
-                        </div>
-                        <div class="blog-item-name">{{ item.name }}</div>
+        <div class="blog-item-layer">
+            <div class="blog-item-container">
+                <div class="blog-item" v-for="(item, index) in blogList" :key="index">
+                    <div class="blog-item-button">
+                        <a class="blog-item-icon" :href="'book/' + item.path" :underline="false" target="_blank">
+                            <BlogItemIcon :name="item.icon"></BlogItemIcon>
+                        </a>
                     </div>
+                    <div class="blog-item-name">{{ item.name }}</div>
                 </div>
             </div>
-        </Transition>
-        <Transition name="fade" mode="out-in">
-            <div class="spline-layer" v-show="!showBlogItem" @click="openBlogItemPage" @touchstart="openBlogItemPage">
-                <div class="spline-container">
-                    <Vue3Spline :scene="{ url: splineSceneUrl }" />
-                </div>
-            </div>
-        </Transition>
+        </div>
         <div class="copyright-container">
             <CopyrightStatement :show-copyright="true" :copyright-info="copyrightInfo" />
         </div>
@@ -65,18 +27,6 @@ onMounted(() => {
 
 <style scoped>
 .index-page-container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.spline-layer {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-
-.spline-container {
     position: absolute;
     width: 100%;
     height: 100%;

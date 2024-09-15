@@ -1,4 +1,3 @@
-export const splineSceneUrl = 'https://prod.spline.design/uOxF4-rl1DBZ0qCL/scene.splinecode'
 export const yuqueBaseUrl = 'https://www.yuque.com/smilingly/'
 
 export const copyrightInfo = {
