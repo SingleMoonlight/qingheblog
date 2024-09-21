@@ -1,29 +1,29 @@
 {
-  "name": "qinghe-blog-v3",
-  "version": "3.0.0",
-  "private": true,
+  "name": "qinghe-bolg",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
-    "format": "prettier --write src/"
+  "version": "1.0.0",
+  "description": "青何博客",
+  "author": "SingleMoonlight <winston.wyx@foxmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.20.0 || >=20.0.0"
   },
-  "dependencies": {
-    "pinia": "^2.1.7",
-    "vue": "^3.4.21",
-    "vue-router": "^4.3.2"
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "build": "vuepress build docs --clean-cache --clean-temp",
+    "preview": "http-server docs/.vuepress/dist",
+    "vp-update": "vp-update"
   },
   "devDependencies": {
-    "@rushstack/eslint-patch": "^1.8.0",
-    "@vitejs/plugin-vue": "^5.0.4",
-    "@vue/eslint-config-prettier": "^9.0.0",
-    "eslint": "^8.57.0",
-    "eslint-plugin-vue": "^9.23.0",
-    "less": "^4.2.0",
-    "less-loader": "^12.2.0",
-    "prettier": "^3.2.5",
-    "vite": "^5.2.11"
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-plume": "1.0.0-rc.100",
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "http-server": "^14.1.1",
+    "vue": "^3.5.6"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   }
 }
