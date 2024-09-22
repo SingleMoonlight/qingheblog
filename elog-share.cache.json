@@ -1,0 +1,55 @@
+{
+  "docs": [
+    {
+      "id": 145128153,
+      "doc_id": "qinghe-guide",
+      "updated": 1726985311000,
+      "properties": {
+        "title": "青何导航",
+        "urlname": "qinghe-guide",
+        "date": "2023/10/29 14:30:17"
+      },
+      "catalog": [
+        {
+          "title": "网站",
+          "doc_id": "qinghe-guide"
+        }
+      ],
+      "realName": "青何导航",
+      "relativePath": "\\网站\\青何导航.md",
+      "docPath": "docs\\分享\\网站"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "TITLE",
+      "title": "网站",
+      "uuid": "VZOBqYFbmZH8gF8F",
+      "url": "",
+      "prev_uuid": "",
+      "sibling_uuid": "",
+      "child_uuid": "izMLC5pGZUJ0r13O",
+      "parent_uuid": "",
+      "doc_id": "",
+      "level": 0,
+      "id": "",
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "青何导航",
+      "uuid": "izMLC5pGZUJ0r13O",
+      "url": "qinghe-guide",
+      "prev_uuid": "VZOBqYFbmZH8gF8F",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "VZOBqYFbmZH8gF8F",
+      "doc_id": 145128153,
+      "level": 1,
+      "id": 145128153,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}
