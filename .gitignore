@@ -10,3 +10,4 @@ docs/.vuepress/dist
 .elog-note.env
 .elog-coding.env
 .elog-share.env
+.elog-essay.env
