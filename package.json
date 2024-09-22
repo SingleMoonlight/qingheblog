@@ -16,7 +16,9 @@
     "vp-update": "vp-update",
     "elog:init": "elog init",
     "elog:sync-note": "elog sync -e .elog-note.env -a elog-note.cache.json -c elog-note.cjs",
-    "elog:clean": "elog clean -a elog-note.cache.json -c elog-note.cjs"
+    "elog:clean-note": "elog clean -a elog-note.cache.json -c elog-note.cjs",
+    "elog:sync-coding": "elog sync -e .elog-coding.env -a elog-coding.cache.json -c elog-coding.cjs",
+    "elog:clean-coding": "elog clean -a elog-coding.cache.json -c elog-coding.cjs"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.15",

@@ -8,3 +8,4 @@ docs/.vuepress/dist
 *.log
 
 .elog-note.env
+.elog-coding.env

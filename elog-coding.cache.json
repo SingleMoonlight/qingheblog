@@ -1,0 +1,238 @@
+{
+  "docs": [
+    {
+      "id": 183745709,
+      "doc_id": "jenkins-automates-the-deployment-of-github-vue-projects",
+      "updated": 1726984254000,
+      "properties": {
+        "title": "Jenkins自动化部署GitHub vue项目",
+        "urlname": "jenkins-automates-the-deployment-of-github-vue-projects",
+        "date": "2024/08/25 16:26:47"
+      },
+      "catalog": [],
+      "realName": "Jenkins自动化部署GitHub vue项目",
+      "relativePath": "\\Jenkins自动化部署GitHub vue项目.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 187372613,
+      "doc_id": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
+      "updated": 1726985113000,
+      "properties": {
+        "title": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
+        "urlname": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
+        "date": "2024/09/21 14:08:22"
+      },
+      "catalog": [],
+      "realName": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
+      "relativePath": "\\GitHub Pages + GitHub Aciton自动打包部署vue项目.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 175807485,
+      "doc_id": "basic-use-of-docker",
+      "updated": 1726983669000,
+      "properties": {
+        "title": "Docker基本使用",
+        "urlname": "basic-use-of-docker",
+        "date": "2024/06/30 16:22:01"
+      },
+      "catalog": [],
+      "realName": "Docker基本使用",
+      "relativePath": "\\Docker基本使用.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 183684571,
+      "doc_id": "docker-deploy-jenkins",
+      "updated": 1726984928000,
+      "properties": {
+        "title": "Docker部署Jenkins",
+        "urlname": "docker-deploy-jenkins",
+        "date": "2024/08/24 23:47:55"
+      },
+      "catalog": [],
+      "realName": "Docker部署Jenkins",
+      "relativePath": "\\Docker部署Jenkins.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 170261245,
+      "doc_id": "use-vue3-and-vite-create-project",
+      "updated": 1726983597000,
+      "properties": {
+        "title": "vue3 + vite创建项目",
+        "urlname": "use-vue3-and-vite-create-project",
+        "date": "2024/05/19 20:43:21"
+      },
+      "catalog": [],
+      "realName": "vue3 + vite创建项目",
+      "relativePath": "\\vue3 + vite创建项目.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 170157580,
+      "doc_id": "docker-deploy-vue-project",
+      "updated": 1726984875000,
+      "properties": {
+        "title": "Docker部署vue项目",
+        "urlname": "docker-deploy-vue-project",
+        "date": "2024/05/18 14:58:03"
+      },
+      "catalog": [],
+      "realName": "Docker部署vue项目",
+      "relativePath": "\\Docker部署vue项目.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 184070796,
+      "doc_id": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
+      "updated": 1726985008000,
+      "properties": {
+        "title": "Docker部署certbot自动获取SSL证书",
+        "urlname": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
+        "date": "2024/08/27 22:31:05"
+      },
+      "catalog": [],
+      "realName": "Docker部署certbot自动获取SSL证书",
+      "relativePath": "\\Docker部署certbot自动获取SSL证书.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 187392363,
+      "doc_id": "github-pages-bind-custom-domain-and-enable-https",
+      "updated": 1726983014000,
+      "properties": {
+        "title": "GitHub Page绑定自定义域名 + 开启HTTPS",
+        "urlname": "github-pages-bind-custom-domain-and-enable-https",
+        "date": "2024/09/21 17:19:34"
+      },
+      "catalog": [],
+      "realName": "GitHub Page绑定自定义域名 + 开启HTTPS",
+      "relativePath": "\\GitHub Page绑定自定义域名 + 开启HTTPS.md",
+      "docPath": "docs\\编程"
+    }
+  ],
+  "catalog": [
+    {
+      "type": "DOC",
+      "title": "GitHub Page绑定自定义域名 + 开启HTTPS",
+      "uuid": "86f48FlwoR4GN3TK",
+      "url": "github-pages-bind-custom-domain-and-enable-https",
+      "prev_uuid": "",
+      "sibling_uuid": "2A0ia7Vt8nk6fouR",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 187392363,
+      "level": 0,
+      "id": 187392363,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
+      "uuid": "2A0ia7Vt8nk6fouR",
+      "url": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
+      "prev_uuid": "86f48FlwoR4GN3TK",
+      "sibling_uuid": "oy_IQlsCeHcOqS6j",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 187372613,
+      "level": 0,
+      "id": 187372613,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Docker部署certbot自动获取SSL证书",
+      "uuid": "oy_IQlsCeHcOqS6j",
+      "url": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
+      "prev_uuid": "2A0ia7Vt8nk6fouR",
+      "sibling_uuid": "sWmTI3O8KXlJIedp",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 184070796,
+      "level": 0,
+      "id": 184070796,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Jenkins自动化部署GitHub vue项目",
+      "uuid": "sWmTI3O8KXlJIedp",
+      "url": "jenkins-automates-the-deployment-of-github-vue-projects",
+      "prev_uuid": "oy_IQlsCeHcOqS6j",
+      "sibling_uuid": "MmybEuOawEzGlyWI",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 183745709,
+      "level": 0,
+      "id": 183745709,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Docker部署Jenkins",
+      "uuid": "MmybEuOawEzGlyWI",
+      "url": "docker-deploy-jenkins",
+      "prev_uuid": "sWmTI3O8KXlJIedp",
+      "sibling_uuid": "YF-aNc_Dt7jTGr-O",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 183684571,
+      "level": 0,
+      "id": 183684571,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Docker部署vue项目",
+      "uuid": "YF-aNc_Dt7jTGr-O",
+      "url": "docker-deploy-vue-project",
+      "prev_uuid": "MmybEuOawEzGlyWI",
+      "sibling_uuid": "FdKtY2igDC-F4ux3",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 170157580,
+      "level": 0,
+      "id": 170157580,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "Docker基本使用",
+      "uuid": "FdKtY2igDC-F4ux3",
+      "url": "basic-use-of-docker",
+      "prev_uuid": "YF-aNc_Dt7jTGr-O",
+      "sibling_uuid": "3d8JQTj8pgX_TDcn",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 175807485,
+      "level": 0,
+      "id": 175807485,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "vue3 + vite创建项目",
+      "uuid": "3d8JQTj8pgX_TDcn",
+      "url": "use-vue3-and-vite-create-project",
+      "prev_uuid": "FdKtY2igDC-F4ux3",
+      "sibling_uuid": "",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 170261245,
+      "level": 0,
+      "id": 170261245,
+      "open_window": 1,
+      "visible": 1
+    }
+  ]
+}
