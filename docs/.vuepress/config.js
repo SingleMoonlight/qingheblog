@@ -32,6 +32,8 @@ export default defineUserConfig({
       categoriesLink: '/categories/',
       archivesLink: '/archives/',
     },
+    
+    autoFrontmatter: false,
 
     footer: {
       message: '',

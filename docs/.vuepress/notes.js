@@ -1,13 +1,13 @@
 import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
 const cNote = defineNoteConfig({
-  dir: 'c',
+  dir: 'C编程',
   link: '/c/',
   sidebar: 'auto',
 })
 
 const javaNote = defineNoteConfig({
-  dir: 'java',
+  dir: 'Java编程',
   link: '/java/',
   sidebar: 'auto',
 })

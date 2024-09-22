@@ -8,8 +8,8 @@ export const navbar = defineNavbarConfig([
   {
     text: '笔记',
     items: [
-      { text: 'C语言', link: '/c/', activeMatch: '^/c/', },
-      { text: 'Java语言', link: '/java/', activeMatch: '^/java/', },
+      { text: 'C编程', link: '/c/', activeMatch: '^/c/', },
+      { text: 'Java编程', link: '/java/', activeMatch: '^/java/', },
     ],
   },
 ])
