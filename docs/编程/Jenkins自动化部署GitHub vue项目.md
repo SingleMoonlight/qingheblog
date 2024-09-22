@@ -16,7 +16,7 @@ permalink: /article/jenkins-automates-the-deployment-of-github-vue-projects/
 4、完成部署，进行访问
 
 ## 插件安装
-> docker 部署 Jenkins 可以见本站博文。
+> docker 部署 Jenkins 可以见：[https://blog.ifback.com/article/docker-deploy-jenkins/](https://blog.ifback.com/article/docker-deploy-jenkins/)
 >
 
 在插件市场选择必须的插件进行安装，如果按照上述文章进行配置 Jenkins，这里应该只差下面几个插件。

@@ -3,7 +3,7 @@
     {
       "id": 183745709,
       "doc_id": "jenkins-automates-the-deployment-of-github-vue-projects",
-      "updated": 1726984254000,
+      "updated": 1727017639000,
       "properties": {
         "title": "Jenkins自动化部署GitHub vue项目",
         "urlname": "jenkins-automates-the-deployment-of-github-vue-projects",
@@ -17,7 +17,7 @@
     {
       "id": 187372613,
       "doc_id": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
-      "updated": 1726985113000,
+      "updated": 1727017689000,
       "properties": {
         "title": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
         "urlname": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
@@ -111,15 +111,44 @@
       "realName": "GitHub Page绑定自定义域名 + 开启HTTPS",
       "relativePath": "\\GitHub Page绑定自定义域名 + 开启HTTPS.md",
       "docPath": "docs\\编程"
+    },
+    {
+      "id": 187486234,
+      "doc_id": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
+      "updated": 1727021860000,
+      "properties": {
+        "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
+        "urlname": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
+        "date": "2024/09/22 15:26:32"
+      },
+      "catalog": [],
+      "realName": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
+      "relativePath": "\\语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案.md",
+      "docPath": "docs\\编程"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
+      "uuid": "7l1vH8I7Y2r5OwkO",
+      "url": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
+      "prev_uuid": "",
+      "sibling_uuid": "86f48FlwoR4GN3TK",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 187486234,
+      "level": 0,
+      "id": 187486234,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "GitHub Page绑定自定义域名 + 开启HTTPS",
       "uuid": "86f48FlwoR4GN3TK",
       "url": "github-pages-bind-custom-domain-and-enable-https",
-      "prev_uuid": "",
+      "prev_uuid": "7l1vH8I7Y2r5OwkO",
       "sibling_uuid": "2A0ia7Vt8nk6fouR",
       "child_uuid": "",
       "parent_uuid": "",

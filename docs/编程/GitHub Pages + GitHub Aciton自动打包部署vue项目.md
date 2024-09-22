@@ -137,6 +137,9 @@ jobs:
 
 不过先别急着修改，如果你打算绑定自己的域名，那么这一步的base就需要配置为`'/'`。
 
+> 如何自定义域名：[https://blog.ifback.com/article/github-pages-bind-custom-domain-and-enable-https/](https://blog.ifback.com/article/github-pages-bind-custom-domain-and-enable-https/)
+>
+
 ```shell
 export default defineConfig({
   base: '/qingheifback', // 这里需要配置为仓库名称或者'/'
