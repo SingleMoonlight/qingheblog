@@ -1,27 +1,13 @@
-# qinghe-bolg
+# qinghe-blog
 
-The Site is generated using [vuepress](https://vuepress.vuejs.org/) and [vuepress-theme-plume](https://github.com/pengzhanbo/vuepress-theme-plume)
+使用以下工具搭建的个人博客网站，欢迎来看看。
 
-## Install
+https://blog.ifback.com/
 
-```sh
-npm i
-```
-
-## Usage
-
-```sh
-# start dev server
-npm run dev
-# build for production
-npm run build
-# preview production build in local
-npm run preview
-# update vuepress and theme
-npm run vp-update
-```
-
-## Documents
-
-- [vuepress](https://vuepress.vuejs.org/)
-- [vuepress-theme-plume](https://theme-plume.vuejs.press/)
+| 工具                                                     | 用途         |
+| -------------------------------------------------------- | ------------ |
+| [vuepress](https://vuepress.vuejs.org/)                  | 博客框架     |
+| [vuepress-theme-plume](https://theme-plume.vuejs.press/) | 博客主题     |
+| [Elog](https://elog.1874.cool/)                          | 语雀文章同步 |
+| [GitHub Pages](https://pages.github.com/)                | 部署平台     |
+| [GitHub Action](https://docs.github.com/zh/actions)      | 自动构建     |
