@@ -2,8 +2,9 @@
 title: Docker基本使用
 createTime: 2024/06/30 16:22:01
 permalink: /article/basic-use-of-docker/
+outline: [2, 6]
 ---
-## 安装
+##  安装
 运行以下命令，下载 docker-ce 的 yum 源。
 
 ```shell

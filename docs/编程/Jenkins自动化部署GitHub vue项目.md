@@ -2,6 +2,7 @@
 title: Jenkins自动化部署GitHub vue项目
 createTime: 2024/08/25 16:26:47
 permalink: /article/jenkins-automates-the-deployment-of-github-vue-projects/
+outline: [2, 6]
 ---
 个人站点使用本地化开发，本地打包后手动上传到服务器，这个流程说麻烦也麻烦，说简单也简单。如果每次一个小的改动都需要这么走一遍，也挺不爽的。借助 CI/CD 工具，自动化地完成上述步骤，连更新都会变得更有动力呢，哈哈哈。
 

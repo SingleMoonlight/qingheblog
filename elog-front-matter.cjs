@@ -30,6 +30,7 @@ const format = async (doc, imageClient) => {
     'title: ' + doc.properties.title.replace(/^\d+\./, '') + '\n' +
     'createTime: ' + doc.properties.date + '\n' +
     'permalink: ' + docNotePermalink + doc.properties.urlname + '\/'  + '\n' +
+    'outline: [2, 6]' +
     '---\n' + 
     doc.body;
 

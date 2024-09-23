@@ -2,8 +2,9 @@
 title: vue3 + vite创建项目
 createTime: 2024/05/19 20:43:21
 permalink: /article/use-vue3-and-vite-create-project/
+outline: [2, 6]
 ---
-## 创建
+##  创建
 在 CMD 或者 PS 中输入如下命令：
 
 ```shell

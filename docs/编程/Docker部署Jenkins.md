@@ -2,8 +2,9 @@
 title: Docker部署Jenkins
 createTime: 2024/08/24 23:47:55
 permalink: /article/docker-deploy-jenkins/
+outline: [2, 6]
 ---
-## 安装 Jenkins 镜像
+##  安装 Jenkins 镜像
 ### 拉取镜像
 ```shell
 docker pull jenkins/jenkins:lts
