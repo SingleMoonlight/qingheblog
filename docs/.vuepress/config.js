@@ -3,16 +3,9 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export const copyright = 
-  '© ' +
-  new Date().getFullYear() +
-  ' ' +
-  '<a href=https://ifback.com/ target=_blank>ifback.com</a>' +
-  ' ' +
-  '豫公网安备 ' +
-  '<a href=https://www.beian.gov.cn/ target=_blank>41152402000212号</a>' +
-  ' ' +
-  '豫ICP备 ' +
-  '<a href=https://beian.miit.gov.cn/ target=_blank>2021014629号-2</a>'
+  '© ' + 2021 + '-' +
+  new Date().getFullYear() +  ' ' +
+  '<a href=https://ifback.com/ target=_blank>ifback.com</a>'
 
 export default defineUserConfig({
   base: '/',
