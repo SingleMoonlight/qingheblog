@@ -125,15 +125,73 @@
       "realName": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
       "relativePath": "\\语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案.md",
       "docPath": "docs\\编程"
+    },
+    {
+      "id": 188211790,
+      "doc_id": "use-jsonp-request-xinzhi-weather",
+      "updated": 1727537084000,
+      "properties": {
+        "title": "使用jsonp请求心知天气数据",
+        "urlname": "use-jsonp-request-xinzhi-weather",
+        "date": "2024/09/26 23:53:03"
+      },
+      "catalog": [],
+      "realName": "使用jsonp请求心知天气数据",
+      "relativePath": "\\使用jsonp请求心知天气数据.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 188436818,
+      "doc_id": "use-secret-in-github-action",
+      "updated": 1727884664000,
+      "properties": {
+        "title": "在GitHub Action中使用密钥",
+        "urlname": "use-secret-in-github-action",
+        "date": "2024/09/28 23:24:49"
+      },
+      "catalog": [],
+      "realName": "在GitHub Action中使用密钥",
+      "relativePath": "\\在GitHub Action中使用密钥.md",
+      "docPath": "docs\\编程"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "在GitHub Action中使用密钥",
+      "uuid": "XR18jZz1Dh58T-2x",
+      "url": "use-secret-in-github-action",
+      "prev_uuid": "",
+      "sibling_uuid": "_i-p631UbPZ53HRw",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 188436818,
+      "level": 0,
+      "id": 188436818,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "使用jsonp请求心知天气数据",
+      "uuid": "_i-p631UbPZ53HRw",
+      "url": "use-jsonp-request-xinzhi-weather",
+      "prev_uuid": "XR18jZz1Dh58T-2x",
+      "sibling_uuid": "7l1vH8I7Y2r5OwkO",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 188211790,
+      "level": 0,
+      "id": 188211790,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
       "uuid": "7l1vH8I7Y2r5OwkO",
       "url": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
-      "prev_uuid": "",
+      "prev_uuid": "_i-p631UbPZ53HRw",
       "sibling_uuid": "86f48FlwoR4GN3TK",
       "child_uuid": "",
       "parent_uuid": "",
