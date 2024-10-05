@@ -113,6 +113,25 @@
       "realName": "为什么是语雀",
       "relativePath": "\\其他\\为什么是语雀.md",
       "docPath": "docs\\随笔\\其他"
+    },
+    {
+      "id": 188911186,
+      "doc_id": "the-sweet-osmanthus-flavor-of-nanjing",
+      "updated": 1728028402000,
+      "properties": {
+        "title": "桂花味的南京城",
+        "urlname": "the-sweet-osmanthus-flavor-of-nanjing",
+        "date": "2024/10/03 21:40:40"
+      },
+      "catalog": [
+        {
+          "title": "游记",
+          "doc_id": "the-sweet-osmanthus-flavor-of-nanjing"
+        }
+      ],
+      "realName": "桂花味的南京城",
+      "relativePath": "\\游记\\桂花味的南京城.md",
+      "docPath": "docs\\随笔\\游记"
     }
   ],
   "catalog": [
@@ -123,7 +142,7 @@
       "url": "",
       "prev_uuid": "",
       "sibling_uuid": "HMQf2D_Lr3Bh6x77",
-      "child_uuid": "NR8RdLys82cHsmot",
+      "child_uuid": "LXzaY_IcG6ynYZQ4",
       "parent_uuid": "",
       "doc_id": "",
       "level": 0,
@@ -133,10 +152,25 @@
     },
     {
       "type": "DOC",
+      "title": "桂花味的南京城",
+      "uuid": "LXzaY_IcG6ynYZQ4",
+      "url": "the-sweet-osmanthus-flavor-of-nanjing",
+      "prev_uuid": "UEESVma2DpsGzo9T",
+      "sibling_uuid": "NR8RdLys82cHsmot",
+      "child_uuid": "",
+      "parent_uuid": "UEESVma2DpsGzo9T",
+      "doc_id": 188911186,
+      "level": 1,
+      "id": 188911186,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "雨夜西湖",
       "uuid": "NR8RdLys82cHsmot",
       "url": "west-lake-on-a-rainy-night",
-      "prev_uuid": "UEESVma2DpsGzo9T",
+      "prev_uuid": "LXzaY_IcG6ynYZQ4",
       "sibling_uuid": "",
       "child_uuid": "",
       "parent_uuid": "UEESVma2DpsGzo9T",
