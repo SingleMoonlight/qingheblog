@@ -3,176 +3,176 @@
     {
       "id": 183745709,
       "doc_id": "jenkins-automates-the-deployment-of-github-vue-projects",
-      "updated": 1727017639000,
+      "updated": 1729094203000,
       "properties": {
-        "title": "Jenkins自动化部署GitHub vue项目",
+        "title": "Jenkins 自动化部署 GitHub Vue 项目",
         "urlname": "jenkins-automates-the-deployment-of-github-vue-projects",
         "date": "2024/08/25 16:26:47"
       },
       "catalog": [],
-      "realName": "Jenkins自动化部署GitHub vue项目",
-      "relativePath": "\\Jenkins自动化部署GitHub vue项目.md",
+      "realName": "Jenkins 自动化部署 GitHub Vue 项目",
+      "relativePath": "\\Jenkins 自动化部署 GitHub Vue 项目.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 187372613,
       "doc_id": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
-      "updated": 1727017689000,
+      "updated": 1729094424000,
       "properties": {
-        "title": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
+        "title": "GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目",
         "urlname": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
         "date": "2024/09/21 14:08:22"
       },
       "catalog": [],
-      "realName": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
-      "relativePath": "\\GitHub Pages + GitHub Aciton自动打包部署vue项目.md",
+      "realName": "GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目",
+      "relativePath": "\\GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 175807485,
       "doc_id": "basic-use-of-docker",
-      "updated": 1726983669000,
+      "updated": 1729094079000,
       "properties": {
-        "title": "Docker基本使用",
+        "title": "Docker 基本使用",
         "urlname": "basic-use-of-docker",
         "date": "2024/06/30 16:22:01"
       },
       "catalog": [],
-      "realName": "Docker基本使用",
-      "relativePath": "\\Docker基本使用.md",
+      "realName": "Docker 基本使用",
+      "relativePath": "\\Docker 基本使用.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 183684571,
       "doc_id": "docker-deploy-jenkins",
-      "updated": 1726984928000,
+      "updated": 1729093958000,
       "properties": {
-        "title": "Docker部署Jenkins",
+        "title": "Docker 部署 Jenkins",
         "urlname": "docker-deploy-jenkins",
         "date": "2024/08/24 23:47:55"
       },
       "catalog": [],
-      "realName": "Docker部署Jenkins",
-      "relativePath": "\\Docker部署Jenkins.md",
+      "realName": "Docker 部署 Jenkins",
+      "relativePath": "\\Docker 部署 Jenkins.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 170261245,
       "doc_id": "use-vue3-and-vite-create-project",
-      "updated": 1726983597000,
+      "updated": 1729094064000,
       "properties": {
-        "title": "vue3 + vite创建项目",
+        "title": "Vue3 + Vite 创建项目",
         "urlname": "use-vue3-and-vite-create-project",
         "date": "2024/05/19 20:43:21"
       },
       "catalog": [],
-      "realName": "vue3 + vite创建项目",
-      "relativePath": "\\vue3 + vite创建项目.md",
+      "realName": "Vue3 + Vite 创建项目",
+      "relativePath": "\\Vue3 + Vite 创建项目.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 170157580,
       "doc_id": "docker-deploy-vue-project",
-      "updated": 1726984875000,
+      "updated": 1729094034000,
       "properties": {
-        "title": "Docker部署vue项目",
+        "title": "Docker 部署 Vue 项目",
         "urlname": "docker-deploy-vue-project",
         "date": "2024/05/18 14:58:03"
       },
       "catalog": [],
-      "realName": "Docker部署vue项目",
-      "relativePath": "\\Docker部署vue项目.md",
+      "realName": "Docker 部署 Vue 项目",
+      "relativePath": "\\Docker 部署 Vue 项目.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 184070796,
       "doc_id": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
-      "updated": 1726985008000,
+      "updated": 1729094308000,
       "properties": {
-        "title": "Docker部署certbot自动获取SSL证书",
+        "title": "Docker 部署 Certbot 自动获取 SSL 证书",
         "urlname": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
         "date": "2024/08/27 22:31:05"
       },
       "catalog": [],
-      "realName": "Docker部署certbot自动获取SSL证书",
-      "relativePath": "\\Docker部署certbot自动获取SSL证书.md",
+      "realName": "Docker 部署 Certbot 自动获取 SSL 证书",
+      "relativePath": "\\Docker 部署 Certbot 自动获取 SSL 证书.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 187392363,
       "doc_id": "github-pages-bind-custom-domain-and-enable-https",
-      "updated": 1726983014000,
+      "updated": 1729094479000,
       "properties": {
-        "title": "GitHub Page绑定自定义域名 + 开启HTTPS",
+        "title": "GitHub Page 绑定自定义域名 + 开启 HTTPS",
         "urlname": "github-pages-bind-custom-domain-and-enable-https",
         "date": "2024/09/21 17:19:34"
       },
       "catalog": [],
-      "realName": "GitHub Page绑定自定义域名 + 开启HTTPS",
-      "relativePath": "\\GitHub Page绑定自定义域名 + 开启HTTPS.md",
+      "realName": "GitHub Page 绑定自定义域名 + 开启 HTTPS",
+      "relativePath": "\\GitHub Page 绑定自定义域名 + 开启 HTTPS.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 187486234,
       "doc_id": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
-      "updated": 1727142940000,
+      "updated": 1729175863000,
       "properties": {
-        "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
+        "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案",
         "urlname": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
         "date": "2024/09/22 15:26:32"
       },
       "catalog": [],
-      "realName": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
-      "relativePath": "\\语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案.md",
+      "realName": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案",
+      "relativePath": "\\语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 188211790,
       "doc_id": "use-jsonp-request-xinzhi-weather",
-      "updated": 1727537084000,
+      "updated": 1729094672000,
       "properties": {
-        "title": "使用jsonp请求心知天气数据",
+        "title": "使用 JSONP 请求心知天气数据",
         "urlname": "use-jsonp-request-xinzhi-weather",
         "date": "2024/09/26 23:53:03"
       },
       "catalog": [],
-      "realName": "使用jsonp请求心知天气数据",
-      "relativePath": "\\使用jsonp请求心知天气数据.md",
+      "realName": "使用 JSONP 请求心知天气数据",
+      "relativePath": "\\使用 JSONP 请求心知天气数据.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 188436818,
       "doc_id": "use-secret-in-github-action",
-      "updated": 1727884664000,
+      "updated": 1729094654000,
       "properties": {
-        "title": "在GitHub Action中使用密钥",
+        "title": "在 GitHub Action 中使用密钥",
         "urlname": "use-secret-in-github-action",
         "date": "2024/09/28 23:24:49"
       },
       "catalog": [],
-      "realName": "在GitHub Action中使用密钥",
-      "relativePath": "\\在GitHub Action中使用密钥.md",
+      "realName": "在 GitHub Action 中使用密钥",
+      "relativePath": "\\在 GitHub Action 中使用密钥.md",
       "docPath": "docs\\编程"
     },
     {
       "id": 188906080,
       "doc_id": "get-public-ip-by-jsonp",
-      "updated": 1727956671000,
+      "updated": 1729094743000,
       "properties": {
-        "title": "使用jsonp获取公网IP",
+        "title": "使用 JSONP 获取公网 IP",
         "urlname": "get-public-ip-by-jsonp",
         "date": "2024/10/03 19:39:50"
       },
       "catalog": [],
-      "realName": "使用jsonp获取公网IP",
-      "relativePath": "\\使用jsonp获取公网IP.md",
+      "realName": "使用 JSONP 获取公网 IP",
+      "relativePath": "\\使用 JSONP 获取公网 IP.md",
       "docPath": "docs\\编程"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
-      "title": "使用jsonp获取公网IP",
+      "title": "使用 JSONP 获取公网 IP",
       "uuid": "VJVScKQ6WwOyvAOf",
       "url": "get-public-ip-by-jsonp",
       "prev_uuid": "",
@@ -187,7 +187,7 @@
     },
     {
       "type": "DOC",
-      "title": "在GitHub Action中使用密钥",
+      "title": "在 GitHub Action 中使用密钥",
       "uuid": "XR18jZz1Dh58T-2x",
       "url": "use-secret-in-github-action",
       "prev_uuid": "VJVScKQ6WwOyvAOf",
@@ -202,7 +202,7 @@
     },
     {
       "type": "DOC",
-      "title": "使用jsonp请求心知天气数据",
+      "title": "使用 JSONP 请求心知天气数据",
       "uuid": "_i-p631UbPZ53HRw",
       "url": "use-jsonp-request-xinzhi-weather",
       "prev_uuid": "XR18jZz1Dh58T-2x",
@@ -217,7 +217,7 @@
     },
     {
       "type": "DOC",
-      "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action一站式博客解决方案",
+      "title": "语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案",
       "uuid": "7l1vH8I7Y2r5OwkO",
       "url": "yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution",
       "prev_uuid": "_i-p631UbPZ53HRw",
@@ -232,7 +232,7 @@
     },
     {
       "type": "DOC",
-      "title": "GitHub Page绑定自定义域名 + 开启HTTPS",
+      "title": "GitHub Page 绑定自定义域名 + 开启 HTTPS",
       "uuid": "86f48FlwoR4GN3TK",
       "url": "github-pages-bind-custom-domain-and-enable-https",
       "prev_uuid": "7l1vH8I7Y2r5OwkO",
@@ -247,7 +247,7 @@
     },
     {
       "type": "DOC",
-      "title": "GitHub Pages + GitHub Aciton自动打包部署vue项目",
+      "title": "GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目",
       "uuid": "2A0ia7Vt8nk6fouR",
       "url": "github-pages-and-aciton-automatically-package-and-deploy-vue-projects",
       "prev_uuid": "86f48FlwoR4GN3TK",
@@ -262,7 +262,7 @@
     },
     {
       "type": "DOC",
-      "title": "Docker部署certbot自动获取SSL证书",
+      "title": "Docker 部署 Certbot 自动获取 SSL 证书",
       "uuid": "oy_IQlsCeHcOqS6j",
       "url": "docker-deploys-cerbot-to-automatically-obtain-ssl-certificates",
       "prev_uuid": "2A0ia7Vt8nk6fouR",
@@ -277,7 +277,7 @@
     },
     {
       "type": "DOC",
-      "title": "Jenkins自动化部署GitHub vue项目",
+      "title": "Jenkins 自动化部署 GitHub Vue 项目",
       "uuid": "sWmTI3O8KXlJIedp",
       "url": "jenkins-automates-the-deployment-of-github-vue-projects",
       "prev_uuid": "oy_IQlsCeHcOqS6j",
@@ -292,7 +292,7 @@
     },
     {
       "type": "DOC",
-      "title": "Docker部署Jenkins",
+      "title": "Docker 部署 Jenkins",
       "uuid": "MmybEuOawEzGlyWI",
       "url": "docker-deploy-jenkins",
       "prev_uuid": "sWmTI3O8KXlJIedp",
@@ -307,7 +307,7 @@
     },
     {
       "type": "DOC",
-      "title": "Docker部署vue项目",
+      "title": "Docker 部署 Vue 项目",
       "uuid": "YF-aNc_Dt7jTGr-O",
       "url": "docker-deploy-vue-project",
       "prev_uuid": "MmybEuOawEzGlyWI",
@@ -322,7 +322,7 @@
     },
     {
       "type": "DOC",
-      "title": "Docker基本使用",
+      "title": "Docker 基本使用",
       "uuid": "FdKtY2igDC-F4ux3",
       "url": "basic-use-of-docker",
       "prev_uuid": "YF-aNc_Dt7jTGr-O",
@@ -337,7 +337,7 @@
     },
     {
       "type": "DOC",
-      "title": "vue3 + vite创建项目",
+      "title": "Vue3 + Vite 创建项目",
       "uuid": "3d8JQTj8pgX_TDcn",
       "url": "use-vue3-and-vite-create-project",
       "prev_uuid": "FdKtY2igDC-F4ux3",

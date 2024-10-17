@@ -1,8 +1,8 @@
 const { matterMarkdownAdapter } = require('@elog/cli')
 
 const docNotes = [
-  { dir: 'C编程', path: '/c/' },
-  { dir: 'Java编程', path: '/java/' },
+  { dir: 'C 编程', path: '/c/' },
+  { dir: 'Java 编程', path: '/java/' },
 ]
 
 /**

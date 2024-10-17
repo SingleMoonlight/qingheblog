@@ -9,8 +9,8 @@ export const navbar = defineNavbarConfig([
     text: '笔记',
     icon: 'solar:notebook-bold',
     items: [
-      { text: 'C编程', link: '/c/', activeMatch: '^/c/', },
-      { text: 'Java编程', link: '/java/', activeMatch: '^/java/', },
+      { text: 'C 编程', link: '/c/', activeMatch: '^/c/', },
+      { text: 'Java 编程', link: '/java/', activeMatch: '^/java/', },
     ],
   },
 ])
