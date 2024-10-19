@@ -167,15 +167,73 @@
       "realName": "使用 JSONP 获取公网 IP",
       "relativePath": "\\使用 JSONP 获取公网 IP.md",
       "docPath": "docs\\编程"
+    },
+    {
+      "id": 190737354,
+      "doc_id": "android-phone-deploy-personal-website-by-termux",
+      "updated": 1729316300000,
+      "properties": {
+        "title": "安卓手机使用 Termux 部署个人网站",
+        "urlname": "android-phone-deploy-personal-website-by-termux",
+        "date": "2024/10/17 23:27:42"
+      },
+      "catalog": [],
+      "realName": "安卓手机使用 Termux 部署个人网站",
+      "relativePath": "\\安卓手机使用 Termux 部署个人网站.md",
+      "docPath": "docs\\编程"
+    },
+    {
+      "id": 190867911,
+      "doc_id": "deploy-personal-website-through-ddns-and-ipv6",
+      "updated": 1729321907000,
+      "properties": {
+        "title": "通过 DDNS 和 IPV6 部署可公网访问的个人网站",
+        "urlname": "deploy-personal-website-through-ddns-and-ipv6",
+        "date": "2024/10/19 00:04:13"
+      },
+      "catalog": [],
+      "realName": "通过 DDNS 和 IPV6 部署可公网访问的个人网站",
+      "relativePath": "\\通过 DDNS 和 IPV6 部署可公网访问的个人网站.md",
+      "docPath": "docs\\编程"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "通过 DDNS 和 IPV6 部署可公网访问的个人网站",
+      "uuid": "H-_EA4-q71V-Fq26",
+      "url": "deploy-personal-website-through-ddns-and-ipv6",
+      "prev_uuid": "",
+      "sibling_uuid": "TJscvHEKoPXQXw-q",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 190867911,
+      "level": 0,
+      "id": 190867911,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
+      "title": "安卓手机使用 Termux 部署个人网站",
+      "uuid": "TJscvHEKoPXQXw-q",
+      "url": "android-phone-deploy-personal-website-by-termux",
+      "prev_uuid": "H-_EA4-q71V-Fq26",
+      "sibling_uuid": "VJVScKQ6WwOyvAOf",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 190737354,
+      "level": 0,
+      "id": 190737354,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "使用 JSONP 获取公网 IP",
       "uuid": "VJVScKQ6WwOyvAOf",
       "url": "get-public-ip-by-jsonp",
-      "prev_uuid": "",
+      "prev_uuid": "TJscvHEKoPXQXw-q",
       "sibling_uuid": "XR18jZz1Dh58T-2x",
       "child_uuid": "",
       "parent_uuid": "",
