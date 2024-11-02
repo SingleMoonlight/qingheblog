@@ -195,15 +195,44 @@
       "realName": "通过 DDNS 和 IPV6 部署可公网访问的个人网站",
       "relativePath": "\\通过 DDNS 和 IPV6 部署可公网访问的个人网站.md",
       "docPath": "docs\\编程"
+    },
+    {
+      "id": 191789052,
+      "doc_id": "search-engine-webmaster-platform-concise-use-guide",
+      "updated": 1730552967000,
+      "properties": {
+        "title": "搜索引擎站长平台简明使用指南",
+        "urlname": "search-engine-webmaster-platform-concise-use-guide",
+        "date": "2024/10/25 23:26:16"
+      },
+      "catalog": [],
+      "realName": "搜索引擎站长平台简明使用指南",
+      "relativePath": "\\搜索引擎站长平台简明使用指南.md",
+      "docPath": "docs\\编程"
     }
   ],
   "catalog": [
     {
       "type": "DOC",
+      "title": "搜索引擎站长平台简明使用指南",
+      "uuid": "wmdRKEc737oPbMGj",
+      "url": "search-engine-webmaster-platform-concise-use-guide",
+      "prev_uuid": "",
+      "sibling_uuid": "H-_EA4-q71V-Fq26",
+      "child_uuid": "",
+      "parent_uuid": "",
+      "doc_id": 191789052,
+      "level": 0,
+      "id": 191789052,
+      "open_window": 1,
+      "visible": 1
+    },
+    {
+      "type": "DOC",
       "title": "通过 DDNS 和 IPV6 部署可公网访问的个人网站",
       "uuid": "H-_EA4-q71V-Fq26",
       "url": "deploy-personal-website-through-ddns-and-ipv6",
-      "prev_uuid": "",
+      "prev_uuid": "wmdRKEc737oPbMGj",
       "sibling_uuid": "TJscvHEKoPXQXw-q",
       "child_uuid": "",
       "parent_uuid": "",
