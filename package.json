@@ -28,7 +28,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "@singlemoonlight/yuque-exporter": "^1.0.5",
+    "@singlemoonlight/yuque-exporter": "^1.0.7",
     "sass-embedded": "^1.79.4"
   }
 }
