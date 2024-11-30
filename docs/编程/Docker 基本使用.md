@@ -5,7 +5,7 @@ permalink: /article/basic-use-of-docker/
 excerpt: 写在前面Docker 命令非常多，这里简单介绍 CentOS 下 Docker 的安装方式以及 Docker 的基本命令。安装运行以下命令，下载 docker-ce 的 yum 源。sudo wget -O /etc/yum.repos.d/docker-ce.repo https://mir...
 outline: [2, 6]
 tags:
-
+  - Docker
 ---
 ## 写在前面
 Docker 命令非常多，这里简单介绍 CentOS 下 Docker 的安装方式以及 Docker 的基本命令。
