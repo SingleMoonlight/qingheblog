@@ -7,7 +7,4 @@ docs/.vuepress/dist
 .DS_Store
 *.log
 
-.elog-note.env
-.elog-coding.env
-.elog-share.env
-.elog-essay.env
+yuque_exporter/

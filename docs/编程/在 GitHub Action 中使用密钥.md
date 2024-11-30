@@ -1,8 +1,11 @@
 ---
 title: 在 GitHub Action 中使用密钥
-createTime: 2024/09/28 23:24:49
+createTime: 2024/09/28 15:24:49
 permalink: /article/use-secret-in-github-action/
+excerpt: 写在前面我们在开发引用第三方 API 时，往往需要用到 API 平台要求的 KEY，这些密钥在本地可以通过文件的形式引入到代码中，然后版本维护的时候不上传到 GitHub，这样可以一定程度上避免密钥泄露的风险，当我们使用 GitHub 进行打包编译的时候，又需要用到密钥，这时候就可以用 Git...
 outline: [2, 6]
+tags:
+
 ---
 ## 写在前面
 我们在开发引用第三方 API 时，往往需要用到 API 平台要求的 KEY，这些密钥在本地可以通过文件的形式引入到代码中，然后版本维护的时候不上传到 GitHub，这样可以一定程度上避免密钥泄露的风险，当我们使用 GitHub 进行打包编译的时候，又需要用到密钥，这时候就可以用 GitHub 提供的密钥管理工具管理我们的密钥。
@@ -24,11 +27,11 @@ import.meta.env.VITE_MY_PRAVITE_KEY
 ### 创建密钥
 在代码仓库 `Setting`->`Actions secrets and variables`->`Actions`->`Repository secrets`中新建一个密钥。
 
-![](../.vuepress/public/images/5412c6455a3a6a003755d37ae3864ee2.png)
+![](../.vuepress/public/images/1727622824125-9dd0efd3-b96c-4ea1-b113-2ae9dc03f1a8.png)
 
 输入密钥名称和密钥，点击添加即可：
 
-![](../.vuepress/public/images/a70be4b8f603226eb28257a603e74693.png)
+![](../.vuepress/public/images/1727884212489-e1228296-06c2-4e17-9824-3afe4310c06c.png)
 
 ### 使用密钥
 然后在 GitHub Aciton 的部署文件 deploy.xml 中就可以通过如下方式进行引用：

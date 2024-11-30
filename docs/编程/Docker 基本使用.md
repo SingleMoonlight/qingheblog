@@ -1,9 +1,15 @@
 ---
 title: Docker 基本使用
-createTime: 2024/06/30 16:22:01
+createTime: 2024/06/30 08:22:01
 permalink: /article/basic-use-of-docker/
+excerpt: 写在前面Docker 命令非常多，这里简单介绍 CentOS 下 Docker 的安装方式以及 Docker 的基本命令。安装运行以下命令，下载 docker-ce 的 yum 源。sudo wget -O /etc/yum.repos.d/docker-ce.repo https://mir...
 outline: [2, 6]
+tags:
+
 ---
+## 写在前面
+Docker 命令非常多，这里简单介绍 CentOS 下 Docker 的安装方式以及 Docker 的基本命令。
+
 ## 安装
 运行以下命令，下载 docker-ce 的 yum 源。
 

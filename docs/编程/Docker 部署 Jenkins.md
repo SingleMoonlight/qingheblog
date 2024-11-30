@@ -1,9 +1,15 @@
 ---
 title: Docker 部署 Jenkins
-createTime: 2024/08/24 23:47:55
+createTime: 2024/08/24 15:47:55
 permalink: /article/docker-deploy-jenkins/
+excerpt: 写在前面介绍如何在 Docker 中部署 Jenkins，包括拉取镜像、运行容器、配置 Nginx 反向代理、初始化、安装插件、配置管理员信息以及安全设置。安装 Jenkins 镜像拉取镜像docker pull jenkins/jenkins:lts目前 docker 被墙，使用 docke...
 outline: [2, 6]
+tags:
+
 ---
+## 写在前面
+介绍如何在 Docker 中部署 Jenkins，包括拉取镜像、运行容器、配置 Nginx 反向代理、初始化、安装插件、配置管理员信息以及安全设置。
+
 ## 安装 Jenkins 镜像
 ### 拉取镜像
 ```shell
@@ -74,44 +80,44 @@ Jenkins 官方文档，关于反向代理的说明，不配置或者反向代理
 ### 初始化
 Jenkins 镜像运行后，可以可以通过域名访问。Jenkins 需要花费一点时间完成初始化配置，完成配置后，可以进入引导流程。
 
-![](../.vuepress/public/images/6bbf845154b69ec1ff0f596d69086023.png)
+![](../.vuepress/public/images/1724566152903-9097a26a-e904-4e07-a21a-aa38f9245d67.png)
 
 ### 密码
-![](../.vuepress/public/images/7ace3b4d6b1a414b0374d2691f952bec.png)
+![](../.vuepress/public/images/1724515046414-81a66c52-b2d3-449c-852e-9599180c6b74.png)
 
 密码在容器的 /var/jenkins_home/ 目录下，宿主机看个人设置，我这里是在 /usr/local/project/personal_website/jenkins/jenkins_home/ 目录下。
 
 cat /usr/local/project/personal_website/jenkins/jenkins_home/secrets/initialAdminPassword 即可得到初始管理员密码，页面输入密码，进入插件安装页面。
 
 ### 插件
-![](../.vuepress/public/images/a561f64befbb5e67255e67724f269bf0.png)
+![](../.vuepress/public/images/1724515078654-c6bb9880-3054-40a3-80c0-f1b226b34f08.png)
 
 这里选择了第二个，选择插件来安装。
 
-![](../.vuepress/public/images/e85b5a8ac7bf96ed6e8eb6634dd0a740.png)
+![](../.vuepress/public/images/1724515349586-aa0a2e66-128a-4a4f-8bef-95689a90e618.png)
 
 根据自身需要选择安装，我这里默认，直接按照。如果后续有需要，可以再安装，没有影响，然后等待安装完成即可。
 
-![](../.vuepress/public/images/63738282c644898dce1d973d34949263.png)
+![](../.vuepress/public/images/1724573710521-620261e8-7390-4205-9e90-d2d4c95d760a.png)
 
 ### 管理员配置
 按照个人情况，配置管理员信息。
 
 配置完管理员后，就只能通过管理员进行登录了。
 
-![](../.vuepress/public/images/0264fab4de18974c56b2c70246315412.png)
+![](../.vuepress/public/images/1724574296334-696c6c6f-f6f7-4bec-92db-138bc8e6e0f3.png)
 
 ### 实例配置
 配置 Jenkins URL，因为在 Jenkins 容器启动时已经配置，这里直接确认即可。
 
-![](../.vuepress/public/images/f8f28df155cd8884fab066bfd288436c.png)
+![](../.vuepress/public/images/1724574215566-e67a5f33-ed35-4d2e-a3b9-9c0afc0987e0.png)
 
 ### 完成配置
-![](../.vuepress/public/images/de3720e2e2b3fe45c2c3152b1f60e9a9.png)
+![](../.vuepress/public/images/1724574337895-a3a8dfd6-93b5-4cfb-9abf-cd51501bd917.png)
 
 
 
-![](../.vuepress/public/images/47845e8abfc699f18068cf627ed5d660.png)
+![](../.vuepress/public/images/1724574383478-d0c75435-c6e4-4c17-9b0b-e9a6c695be77.png)
 
 ## 安全配置
 Jenkins 涉及的内容与服务器直接关系，加上 Jenkins 有很多漏洞，公网上使用 Jenkins 尤其需要注意。
@@ -123,13 +129,13 @@ SSL证书配置无需过多解释，https安全性要比http要高得多。
 >
 
 ### 节点
-![](../.vuepress/public/images/26812286bb1cb6032a2256e6b6fb1e7c.png)
+![](../.vuepress/public/images/1724595799212-3fa5abaf-1efa-4240-a563-d024386eb5f3.png)
 
 Jenkins 默认配置完成 后，会提示在主节点上执行构建有安全隐患，所以可以配置从节点，用于构建任务。
 
 默认情况下，只有一个 master 主节点。
 
-![](../.vuepress/public/images/bbb1c4edea11c9e9dd009aed993e0955.png)
+![](../.vuepress/public/images/1725079580304-067e1c4c-b706-441e-9c41-72ed3d066189.png)
 
 对于个人使用来说，也用不上集群构建，默认主节点即可。
 

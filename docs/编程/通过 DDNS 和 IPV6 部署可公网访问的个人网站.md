@@ -1,8 +1,11 @@
 ---
 title: 通过 DDNS 和 IPV6 部署可公网访问的个人网站
-createTime: 2024/10/19 00:04:13
+createTime: 2024/10/18 16:04:13
 permalink: /article/deploy-personal-website-through-ddns-and-ipv6/
+excerpt: 写在前面如果想让局域网的个人网站能够在公网访问，就必须要公网地址，目前公网 IPV4 地址个人难以申请，但 IPV6 地址使用门槛就非常低，几乎都是支持的。本篇文章就接着这篇介绍的 Termux 部署个人网站，让这个网站可以在公网访问。如果你没有看过，可以先看一下。如果你有部署个人网站，或者其...
 outline: [2, 6]
+tags:
+
 ---
 ## 写在前面
 如果想让局域网的个人网站能够在公网访问，就必须要公网地址，目前公网 IPV4 地址个人难以申请，但 IPV6 地址使用门槛就非常低，几乎都是支持的。
@@ -25,7 +28,7 @@ outline: [2, 6]
 
 下面是我这里的测试结果：
 
-![](../.vuepress/public/images/465079f50d0795036df2428f26fa2624.png)
+![](../.vuepress/public/images/1729269036825-964666db-f75b-40ac-8793-c3da937cb5ed.png)
 
 #### Termux 获取 IPV6
 由于安卓手机的权限问题，尽管手机实际上已经获取了 IPV6 地址，但是在 Termux 中通过 ifconfig 查看还是只有 IPV4 地址。
@@ -52,7 +55,7 @@ curl https://ipv6.ddnspod.com
 
 IPV6 ping 可以在这个网站进行测试：[https://ipw.cn/ipv6ping/](https://ipw.cn/ipv6ping/)，下图是我这里的测试结果：
 
-![](../.vuepress/public/images/3c2745c7cec68f3cd67a065a5f2fd6c4.png)
+![](../.vuepress/public/images/1729309289276-6078d0dd-0ac1-4d1a-ba50-0756f0727bf0.png)
 
 ### DDNS 配置
 #### 域名配置
@@ -62,14 +65,14 @@ IPV6 ping 可以在这个网站进行测试：[https://ipw.cn/ipv6ping/](https:/
 
 然后点击创建新的空间，选择一个域名，输入上一步获取的 IPV6 地址：
 
-![](../.vuepress/public/images/ea3a0079d33aa769ced52c890ebe8141.png)
+![](../.vuepress/public/images/1729312378028-18cdb021-65d0-4786-bca3-c65c488fa308.png)
 
 > dynv6 提供的免费域名为二级域名，有几个域名可选。三级域名，即我们创建的域名可以自行设置，不过一些可能已经被占用了。
 >
 
 创建完成后就可以在[这里](https://ipw.cn/dns/)验证一下解析是否正确：
 
-![](../.vuepress/public/images/8a89cd677d178da025e36745b22fe519.png)
+![](../.vuepress/public/images/1729312910908-364bab6b-9561-48f1-a956-a932ad6dd0e1.png)
 
 #### 自动化更新 IPV6 地址
 IPV6 地址和 IPV4 地址一样，都是有地址租期的，到期之后可能发生变化，这时候我们就需要更新解析到域名上的 IPV6 地址，这就是 DDNS 的意思了。
@@ -79,11 +82,11 @@ IPV6 地址和 IPV4 地址一样，都是有地址租期的，到期之后可能
 ##### 添加 HTTP Token
 在 dynv6 右上角`账号`->`key`->`HTTP Tokens`选择添加新的 HTTP Token，取一个名字，选择空间，这里选择了上一步创建的域名，也可以选择 all，这样 Token 就对账号下的所有空间生效。
 
-![](../.vuepress/public/images/c040d2013463a3d5ad594182c68e0340.png)
+![](../.vuepress/public/images/1729313206384-cddbb27b-51dd-4894-a895-afee54ae4951.png)
 
 创建好的 Token 需要保存下来，也可以在 HTTP Tokens 里再次查看：
 
-![](../.vuepress/public/images/76c0beb44488136e35d9398a397f3ab2.png)
+![](../.vuepress/public/images/1729313250549-bfc7bad9-d24a-4a00-a8ac-467d08891e07.png)
 
 ##### Termux 添加定时任务
 按照 dynv6 平台的 API，写一个简单的 IPV6 更新脚本，这里命名为 `ipv6_update.sh`。 
@@ -130,7 +133,7 @@ addresses updated
 
 可以看到 dynv6 平台已经成功更新：
 
-![](../.vuepress/public/images/fa2121f1425717c01dc03bcc5e5e4420.png)
+![](../.vuepress/public/images/1729315832388-5f29c0ff-ec19-40c7-b914-c824e0fae9c1.png)
 
 设置脚本开启自启动，编辑 `.bashrc` 文件，在其中添加如下内容：
 
@@ -165,14 +168,14 @@ nginx -s reloag
 
 在公网尝试使用域名访问 nginx，可以看到访问成功：
 
-![](../.vuepress/public/images/f206a5be07d4001847e893cb3882d990.png)
+![](../.vuepress/public/images/1729316846258-0ab72f80-f6ac-4d9f-8a17-2ea3c743cd85.png)
 
 ### URL 转发
 不过这里还有一点需要注意，运营商一般会将一些应用端口，比如 80、443 等封禁，不能用这些端口配置 nginx，这样就导致我们访问网站时还需要在域名后面加上具体的端口号，不够优雅。
 
 dynv6 平台并未提供 URL 转发功能，目前我了解到，且可以进行 URL 转发的有阿里云的 DNS 解析：
 
-![](../.vuepress/public/images/26e2b9969aa01d0bbb206c85dbc8bf1d.png)
+![](../.vuepress/public/images/1729317800147-7c0b8dda-3263-4139-a0aa-9569c4202196.png)
 
 将记录类型设置为隐性，记录值设置为 dynv6 平台的域名，不过这样还是需要自己有一个域名，而且被转发的域名需要进行备案，暂时没有更好的解决办法。
 

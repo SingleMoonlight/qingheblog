@@ -1,8 +1,11 @@
 ---
 title: 安卓手机使用 Termux 部署个人网站
-createTime: 2024/10/17 23:27:42
+createTime: 2024/10/17 15:27:42
 permalink: /article/android-phone-deploy-personal-website-by-termux/
+excerpt: 写在前面之前折腾个人网站的时候用云服务器，想到云服务器本质就是一个跑程序的 Linux 系统，想到用闲置的安卓手机是不是也可以，于是用淘汰下来的安卓手机试着部署了个人网站。当然，这样部署的网站只能在局域网内访问，如果要想实现公网访问，要么通过内网穿透，要么想办法获取公网 IP。IPV4 地址获...
 outline: [2, 6]
+tags:
+
 ---
 ## 写在前面
 之前折腾个人网站的时候用云服务器，想到云服务器本质就是一个跑程序的 Linux 系统，想到用闲置的安卓手机是不是也可以，于是用淘汰下来的安卓手机试着部署了个人网站。
@@ -34,7 +37,7 @@ termux-change-repo
 
 输入上述命令后，会出现一个 GUI 页面，在图形界面引导下，使用自带方向键可上下移动。
 
-![](../.vuepress/public/images/4d9c79dd588dcda7834e96c9611e7fb6.png)
+![](../.vuepress/public/images/1729268248561-7b082811-4b2c-4bee-9c19-99b26f37da22.png)
 
 第一步使用空格选择需要更换的仓库，之后在第二步选择相应镜像源。确认无误后回车，镜像源会自动完成更换。
 
@@ -71,13 +74,13 @@ SSH 远程连接需要一个 PC 端的终端工具，此类工具有很多，比
 > 每个人可能习惯用的工具不太一样，只要能用 SSH 就好。
 >
 
-![](../.vuepress/public/images/f1052556196dd53e1328a3452ba82dc1.png)
+![](../.vuepress/public/images/1729264497209-f3070861-7d04-4e79-8493-2c38d600dbce.png)
 
 需要注意的是，默认端口号是 `8022`，而不是 `22`。
 
 设置好后，输入用户名和密码登录，用户名为 `root`，密码为上一步设置的，连接成功后类似这样。后面就可以在 PC 端进行操作了。
 
-![](../.vuepress/public/images/9989cf1e218f969ffe8cb493acc68a4c.png)
+![](../.vuepress/public/images/1729264759670-987fb29f-8d53-4fc3-8c68-08743c653f97.png)
 
 #### 设置 sshd 自启动
 手机端每次 Termux 退出重新打开，都需要重新运行 sshd，不是很方便，因此我们可以设置 sshd 开机自动启动。
@@ -113,7 +116,7 @@ fi
 
 保存后，每次启动 Termux 软件就可以自动运行 sshd 了。
 
-![](../.vuepress/public/images/1d1e0f9b41bef80c5e8ab5a617fad2ef.png)
+![](../.vuepress/public/images/1729268287805-94bf8de0-cffb-41a9-87c2-d01b92bb9fb6.png)
 
 ### 后台运行
 安卓系统可能会杀掉运行中的不活跃应用，为了保证 Termux 一直运行，可以将其设为后台常驻。对于小米手机来说，在后台页面下拉即可。
@@ -138,7 +141,7 @@ nginx version: nginx/1.27.
 
 nginx 运行起来后，就可以在同一局域网下的设备浏览器中访问 nginx 默认网站了，地址为 `IP:8080`，PC 浏览器查看运行效果如下：
 
-![](../.vuepress/public/images/b6b0ef6e4563a10d7ec74f50db724e2c.png)
+![](../.vuepress/public/images/1729266557089-6557cc84-f731-488e-8038-5510bf3731a6.png)
 
 #### 部署个人网站
 nginx 的默认配置文件和网站代码在如下目录中，剩下的就是将自己的网站代码上传到 Termux 中，然后配置 nginx.conf 即可，这里就不再展示了。

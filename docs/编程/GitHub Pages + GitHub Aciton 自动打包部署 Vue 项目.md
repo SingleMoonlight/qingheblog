@@ -1,8 +1,11 @@
 ---
 title: GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目
-createTime: 2024/09/21 14:08:22
+createTime: 2024/09/21 06:08:22
 permalink: /article/github-pages-and-aciton-automatically-package-and-deploy-vue-projects/
+excerpt: 写在前面从萌生创建网站的想法开始，试过了很多建站方式，目前是云服务器自建博客前台，博文托管平台，各个子站容器化部署，更新使用 Jenkins 自动化部署和发布，配置、迁移、SSL 等都是通过脚本一键完成，可以说十分优雅，一定程度上，我觉得这将是最终形态，不会再折腾了。但是云服务器还是有成本的，...
 outline: [2, 6]
+tags:
+
 ---
 ## 写在前面
 从萌生创建网站的想法开始，试过了很多建站方式，目前是云服务器自建博客前台，博文托管平台，各个子站容器化部署，更新使用 Jenkins 自动化部署和发布，配置、迁移、SSL 等都是通过脚本一键完成，可以说十分优雅，一定程度上，我觉得这将是最终形态，不会再折腾了。
@@ -20,18 +23,18 @@ outline: [2, 6]
 ### 代码推送
 当本地开发好网站后，需要将代码推送到 GitHub 仓库，例如：
 
-![](../.vuepress/public/images/1506a759ab0ef07475269e751ca62b7b.png)
+![](../.vuepress/public/images/1726911884810-99b01100-5cfc-4fa1-98ab-1835c2528251.png)
 
 请先忽略图中的 workflows 文件，后面会说明如何进行配置。
 
 ### GitHub Action 配置
 在仓库页面上方，依次选择`Setting`->`Action`->`General`。
 
-![](../.vuepress/public/images/2f684038ebec3b208d1a0fd2a18e4710.png)
+![](../.vuepress/public/images/1726912127473-aa131c2f-14a9-4847-9be7-c47879987f81.png)
 
 然后划到最下面，在`Workflow permissions`项中，选择赋予读写权限。
 
-![](../.vuepress/public/images/f7f5cc442d3042917358382d0d7d6b37.png)
+![](../.vuepress/public/images/1726912244948-d5f97f16-3638-4e89-8c67-0b0b39019f81.png)
 
 这里是因为后面使用 GitHub Action 自动打包部署时，会创建 gh-pages 分支，并将打包好的文件自动上传到该分支，所以需要写入权限，如果不进行配置，自动部署回报没有权限的错误。
 
@@ -112,16 +115,16 @@ jobs:
 ### 推送 deploy.yml
 现在本地编写完了`deploy.yml`，将其 push 到 GitHub 仓库，此时可以看到 GitHub 在自动执行构建。
 
-![](../.vuepress/public/images/5f4048f0544147a238cf6b967b6c04e9.png)
+![](../.vuepress/public/images/1726913791336-d1e4e126-8b36-486f-b86d-13df12c9e75e.png)
 
 如果不出意外的话，构建完成就可以看到自动创建的新分支`gh-pages`以及打包好的产物。
 
-![](../.vuepress/public/images/9c54f7f38a82923c80381b21723602c5.png)
+![](../.vuepress/public/images/1726913684920-f178567e-6d10-4298-a6a7-001b2cad250e.png)
 
 ### GitHub Pages 配置
 在仓库的`Setting`->`Pages`里，`Branch`选择自动生成的`gh-pages`，稍等一会，将会在上面看到网站可以访问。
 
-![](../.vuepress/public/images/91e6358e81c4066ff9ce1e5feead1c8e.png)
+![](../.vuepress/public/images/1726913855900-ab82aebd-3d9d-40c1-9dfe-5010b6abf3ca.png)
 
 > 这里我自定义了域名，所以地址不是`***.github.io/project_name`
 >

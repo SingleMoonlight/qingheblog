@@ -1,8 +1,11 @@
 ---
 title: 语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案
-createTime: 2024/09/22 15:26:32
+createTime: 2024/09/22 07:26:32
 permalink: /article/yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution/
+excerpt: 写在前面前面博客说过，博客方案换来换去，没有优雅，只有更优雅。现在找到了满足我所有需求的方案。不出意外，这也将是最终的方案了，折腾了一天，写下来看看能不能帮到有相同想法的人。最终效果语雀上写文章。本地执行同步。推送到 GitHub。完成！如果觉得不符合你的要求，那么下面就不用浪费时间看了，除非...
 outline: [2, 6]
+tags:
+
 ---
 ## 写在前面
 前面博客说过，博客方案换来换去，没有优雅，只有更优雅。现在找到了满足我所有需求的方案。不出意外，这也将是最终的方案了，折腾了一天，写下来看看能不能帮到有相同想法的人。
@@ -249,7 +252,7 @@ npm run elog:init
 
 `YUQUE_REPO`：知识库路径，在`知识库`->`更多设置`->`路径进行`配置。
 
-![](../.vuepress/public/images/7f3b79f709bafa5bb52d30f7fcf07b4b.png)
+![](../.vuepress/public/images/1727012035723-e5622735-7535-431c-9cda-608a3275ab7d.png)
 
 ```javascript
 # 语雀（Token方式）
@@ -348,19 +351,19 @@ npm run elog:sync-share
 
 然后在仓库页面上方，依次选择`Setting`->`Action`->`General`，然后划到最下面，在`Workflow permissions`项中，选择赋予读写权限。
 
-![](../.vuepress/public/images/ad733048bcd378e3e37fbe377830b1e8.png)
+![](../.vuepress/public/images/1729175857184-ecb05e93-8c88-42b4-be06-98d4c352dc64.png)
 
 #### 推送代码
 因为前面已经初始化过代码仓库和 GitHub Pages，现在只需要将代码推送到 GitHub 即可触发 GitHub 自动打包构建。如果不出意外的话，构建完成就可以看到自动创建的新分支`gh-pages`以及打包好的产物。
 
-![](../.vuepress/public/images/4db6fa814d43312599d52debedccb2a5.png)
+![](../.vuepress/public/images/1727017191808-14d602eb-0043-439f-be5b-b538b7422ad7.png)
 
 #### 配置 Pages
 OK，到现在到博客网站能够正常访问只差一步之遥。
 
 在仓库的`Setting`->`Pages`里，`Branch`选择自动生成的`gh-pages`，稍等一会，将会在上面看到网站可以访问了。
 
-![](../.vuepress/public/images/84c62524d555313bf9ef85333ed55f42.png)
+![](../.vuepress/public/images/1727017489163-d1ec85bb-165b-4b90-8cdb-55a93556e2f2.png)
 
 我这里自定义了域名，如果没有自定义域名地址应该是`***.github.io/仓库名称`。
 
@@ -476,9 +479,9 @@ permalink: /c/c-overview/
 笔记文档下的子目录在页面中会以分割线的形式展示。
 
 #### 效果图说明
-![](../.vuepress/public/images/f86d2a3eaf5f7c2cbae9a1f61f334ebc.png)
+![](../.vuepress/public/images/1727020968936-419660ba-a7f6-4636-a499-fcbb3d8a8d65.png)
 
-![](../.vuepress/public/images/42448e349479582c932d694bb71475a2.png)
+![](../.vuepress/public/images/1727020335133-cf5013c1-8987-4524-86c7-fcac412d3fe5.png)
 
 ### 自定义 frontmatter
 上一节说了文档的 frontmatter 属性，frontmatter 可以帮助生成一些文章信息，如文章名称、文章创建时间、文章链接，这些信息会在页面中进行展示。
@@ -576,7 +579,7 @@ module.exports = {
 > 个人建议每篇文档在创建的时候可以顺便设置一下这个文档的名称，是一个很好的习惯，也有利于 SEO。
 >
 
-![](../.vuepress/public/images/5d2e894672fee64e0c8323dcbb52ce7c.png)
+![](../.vuepress/public/images/1727021706218-68235b85-b5fb-43b2-9e44-b06755448f41.png)
 
 在输出配置里，指定自定义文档插件的文件：
 

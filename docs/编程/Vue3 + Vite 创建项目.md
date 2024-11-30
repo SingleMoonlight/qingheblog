@@ -1,9 +1,16 @@
 ---
 title: Vue3 + Vite 创建项目
-createTime: 2024/05/19 20:43:21
+createTime: 2024/05/19 12:43:21
 permalink: /article/use-vue3-and-vite-create-project/
+excerpt: 写在前面步入 Vue3 后，创建项目的流程变得很简单，这里就简单介绍 Vue3 使用 Vite 创建和运行项目的基本流程。创建在 CMD 或者 PS 中输入如下命令：npm create vue@latest按照步骤，根据自己需求选择即可。初始化完成结果如下：PS E:\ProgramData...
 outline: [2, 6]
+tags:
+  - Vue
+  - Vite
 ---
+## 写在前面
+步入 Vue3 后，创建项目的流程变得很简单，这里就简单介绍 Vue3 使用 Vite 创建和运行项目的基本流程。
+
 ## 创建
 在 CMD 或者 PS 中输入如下命令：
 
@@ -72,12 +79,12 @@ PS E:\ProgramData\VS_code\vue3-demo> npm run dev
 
 运行结果：
 
-![](../.vuepress/public/images/f134577d679f27e026243aa426adc55a.png)
+![](../.vuepress/public/images/1719734245493-f2787c62-b354-4471-9dca-0b90197ea9a7.png)
 
 ## 开发
 项目文件结构：
 
-![](../.vuepress/public/images/c7e7b20879161f908ed238d3bf5c6eb9.png)
+![](../.vuepress/public/images/1719734349618-0f6061ad-18d8-4176-b5e0-d012ab1f8175.png)
 
 之后就可以在此基础上进行开发了。
 

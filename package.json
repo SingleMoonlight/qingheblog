@@ -14,15 +14,7 @@
     "build": "vuepress build docs --clean-cache --clean-temp",
     "preview": "http-server docs/.vuepress/dist",
     "vp-update": "vp-update",
-    "elog:init": "elog init",
-    "elog:sync-note": "elog sync -e .elog-note.env -a elog-note.cache.json -c elog-note.cjs",
-    "elog:clean-note": "elog clean -a elog-note.cache.json -c elog-note.cjs",
-    "elog:sync-coding": "elog sync -e .elog-coding.env -a elog-coding.cache.json -c elog-coding.cjs",
-    "elog:clean-coding": "elog clean -a elog-coding.cache.json -c elog-coding.cjs",
-    "elog:sync-share": "elog sync -e .elog-share.env -a elog-share.cache.json -c elog-share.cjs",
-    "elog:clean-share": "elog clean -a elog-share.cache.json -c elog-share.cjs",
-    "elog:sync-essay": "elog sync -e .elog-essay.env -a elog-essay.cache.json -c elog-essay.cjs",
-    "elog:clean-essay": "elog clean -a elog-essay.cache.json -c elog-essay.cjs"
+    "yuque-exporter": "yuque-exporter"
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.18",
@@ -36,7 +28,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "@elog/cli": "^0.14.2",
+    "@singlemoonlight/yuque-exporter": "^1.0.5",
     "sass-embedded": "^1.79.4"
   }
 }
