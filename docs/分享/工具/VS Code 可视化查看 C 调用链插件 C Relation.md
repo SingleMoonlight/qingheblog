@@ -50,7 +50,7 @@ tags:
 
 如果展开调用链树太长或者太宽，可以拖动整棵树，以便更好的查看。
 
-![](../../.vuepress/public/images/1736432761105-0d3b376d-e85e-4f54-99ae-5b9fbffcbac1.gif)
+![](../../.vuepress/public/images/1744126280660-3daf74f2-80ae-417b-b4d7-2e7d84e6348a.gif)
 
 ### 更新数据
 插件主要是为了查看调用链，如果你在开发，代码存在更新，请 `Ctrl+Shift+P` ，打开命令面板，然后选择 `C Relation: Update database` 。插件将扫描更新果的文件，并更新符号表数据。
