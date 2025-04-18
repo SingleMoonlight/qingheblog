@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./app-CvKX1Xds.js";const r={};function n(o,s){return a(),e("div")}const i=t(r,[["render",n]]),l=JSON.parse('{"path":"/tags/","title":"标签","lang":"zh-CN","frontmatter":{"lang":"zh-CN","title":"标签","draft":true},"headers":[],"readingTime":{"minutes":0,"words":0},"git":{},"filePathRelative":null,"type":"blog-tags"}');export{i as comp,l as data};
