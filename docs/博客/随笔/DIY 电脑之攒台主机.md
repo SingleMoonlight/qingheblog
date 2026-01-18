@@ -3,8 +3,6 @@ title: DIY 电脑之攒台主机
 createTime: 2025/05/16 12:01:32
 permalink: /article/diy-pc/
 excerpt: 毕业三年，总算是下定决心攒台电脑了，选了配置，自己动手装机，实现一直以来的小愿望，这里也简单记录一下装机过程。配置配置型号CPU英特尔 i5-14600KF主板华硕 TUF GAMING B760M-PLUS WIFI Ⅱ显卡华硕 TUF GeForce RTX5070 O12G GAMING...
-tags:
-
 ---
 毕业三年，总算是下定决心攒台电脑了，选了配置，自己动手装机，实现一直以来的小愿望，这里也简单记录一下装机过程。
 
