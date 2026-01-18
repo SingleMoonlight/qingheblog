@@ -1,5 +1,6 @@
 ---
 pageLayout: home
 config:
-  - type: blog
+  -
+    type: blog
 ---

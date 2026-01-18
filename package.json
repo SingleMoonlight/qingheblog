@@ -5,30 +5,26 @@
   "description": "青何博客",
   "author": "SingleMoonlight <winston.wyx@foxmail.com>",
   "license": "MIT",
-  "engines": {
-    "node": "^18.20.0 || >=20.0.0"
-  },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "dev-clean": "vuepress dev docs --clean-cache --clean-temp",
-    "build": "vuepress build docs --clean-cache --clean-temp",
-    "preview": "http-server docs/.vuepress/dist",
-    "vp-update": "vp-update",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "npx vp-update",
     "yuque-exporter": "yuque-exporter"
   },
   "devDependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.22",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
     "http-server": "^14.1.1",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.22",
-    "vuepress-theme-plume": "1.0.0-rc.144"
+    "typescript": "^5.9.3",
+    "vue": "^3.5.26",
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-plume": "1.0.0-rc.185"
   },
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
+  "engines": {
+    "node": "^20.19.0 || >=22.0.0"
   },
   "dependencies": {
-    "@singlemoonlight/yuque-exporter": "^1.0.7",
-    "sass-embedded": "^1.79.4"
+    "@singlemoonlight/yuque-exporter": "^1.0.7"
   }
 }
