@@ -516,7 +516,7 @@ https://blog.ifback.com/c/c-overview/
 export default defineUserConfig({
   theme: plumeTheme({   
     autoFrontmatter: false,
-  }
+  })
   // 其他配置
 })
 ```
