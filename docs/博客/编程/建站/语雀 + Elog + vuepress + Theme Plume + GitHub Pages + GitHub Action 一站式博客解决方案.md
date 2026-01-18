@@ -143,7 +143,7 @@ export default defineUserConfig({
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
   // 其他配置
-}
+})
 ```
 
 ##### 页脚
@@ -168,7 +168,7 @@ export default defineUserConfig({
       message: '',
       copyright: copyright,
     },
-  }
+  })
   // 其他配置
 })
 ```
@@ -202,7 +202,7 @@ export default defineUserConfig({
       categoriesLink: '/categories/',
       archivesLink: '/archives/',
     },
-  }
+  })
   // 其他配置
 })
 ```
@@ -516,7 +516,7 @@ https://blog.ifback.com/c/c-overview/
 export default defineUserConfig({
   theme: plumeTheme({   
     autoFrontmatter: false,
-  }
+  })
   // 其他配置
 })
 ```
@@ -597,7 +597,4 @@ module.exports = {
 ```
 
 后面在执行文档同步的时候，文档就会按照上面我们自定义的格式添加 frontmatter 了。
-
-## 
-
 
