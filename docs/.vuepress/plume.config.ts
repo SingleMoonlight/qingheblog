@@ -23,7 +23,8 @@ export const copyright =
  * @see https://theme-plume.vuejs.press/config/theme/
  */
 export default defineThemeConfig({
-  logo: '/favicon.ico',
+  logo: '/logo.ico',
+  logoDark: '/logo-dark.ico',
 
   appearance: true,  // 配置 深色模式
 
@@ -54,10 +55,10 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/theme/#profile
    */
   profile: {
-    avatar: '/favicon.ico',
+    avatar: '/avatar.png',
     name: '青何',
     description: '向阳花木易为春',
-    // circle: true,
+    circle: true,
     // location: '',
     // organization: '',
   },

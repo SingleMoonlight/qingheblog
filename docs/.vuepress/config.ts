@@ -21,7 +21,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo.ico' }],
   ],
 
   bundler: viteBundler(),
