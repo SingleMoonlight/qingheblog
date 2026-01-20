@@ -7,4 +7,5 @@ docs/.vuepress/dist
 .DS_Store
 *.log
 
-yuque_exporter/
+yuque_exporter/doc_detail_list_cache
+yuque_exporter/*.json
