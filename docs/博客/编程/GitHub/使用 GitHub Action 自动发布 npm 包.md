@@ -1,6 +1,6 @@
 ---
 title: 使用 GitHub Action 自动发布 npm 包
-createTime: 2024/11/10 14:10:12
+createTime: 2024/11/10 22:10:12
 permalink: /article/automatically-publish-npm-packages-using-github-action/
 tags:
   - GitHub

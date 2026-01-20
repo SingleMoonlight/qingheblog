@@ -1,6 +1,6 @@
 ---
 title: 使用 GitHub Action 自动发布 VS Code 插件
-createTime: 2025/01/07 16:01:03
+createTime: 2025/01/08 00:01:03
 permalink: /article/automatically-publish-vscode-plugins-using-github-action/
 tags:
   - GitHub

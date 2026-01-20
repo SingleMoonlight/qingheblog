@@ -1,6 +1,6 @@
 ---
 title: Docker 部署 Jenkins
-createTime: 2024/08/24 15:47:55
+createTime: 2024/08/24 23:47:55
 permalink: /article/docker-deploy-jenkins/
 tags:
   - Docker

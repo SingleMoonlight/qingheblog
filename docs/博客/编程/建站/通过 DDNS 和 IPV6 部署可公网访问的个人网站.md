@@ -1,6 +1,6 @@
 ---
 title: 通过 DDNS 和 IPV6 部署可公网访问的个人网站
-createTime: 2024/10/18 16:04:13
+createTime: 2024/10/19 00:04:13
 permalink: /article/deploy-personal-website-through-ddns-and-ipv6/
 tags:
   - IPV6

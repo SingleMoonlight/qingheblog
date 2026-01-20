@@ -1,6 +1,6 @@
 ---
 title: 在 GitHub Action 中使用密钥
-createTime: 2024/09/28 15:24:49
+createTime: 2024/09/28 23:24:49
 permalink: /article/use-secret-in-github-action/
 tags:
   - GitHub

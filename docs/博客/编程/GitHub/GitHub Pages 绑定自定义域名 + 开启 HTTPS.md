@@ -1,6 +1,6 @@
 ---
 title: GitHub Pages 绑定自定义域名 + 开启 HTTPS
-createTime: 2024/09/21 09:19:34
+createTime: 2024/09/21 17:19:34
 permalink: /article/github-pages-bind-custom-domain-and-enable-https/
 tags:
   - GitHub

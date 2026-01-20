@@ -1,6 +1,6 @@
 ---
 title: VS Code 可视化查看 C 调用链插件 C Relation
-createTime: 2024/12/20 14:58:06
+createTime: 2024/12/20 22:58:06
 permalink: /article/vscode-visualizes-c-call-chain-plugin-c-relation/
 ---
 > 一直想用 SourceInsight 一样的可以查看函数调用链一样的功能，但是又不想用 SourceInsight，找了一圈没有找到 VS Code 有类似功能的插件，索性自己开发了一个。

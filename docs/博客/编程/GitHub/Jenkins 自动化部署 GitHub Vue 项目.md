@@ -1,6 +1,6 @@
 ---
 title: Jenkins 自动化部署 GitHub Vue 项目
-createTime: 2024/08/25 08:26:47
+createTime: 2024/08/25 16:26:47
 permalink: /article/jenkins-automates-the-deployment-of-github-vue-projects/
 tags:
   - Jenkins
