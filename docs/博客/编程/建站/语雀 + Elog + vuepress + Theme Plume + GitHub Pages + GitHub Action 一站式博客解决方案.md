@@ -2,14 +2,14 @@
 title: 语雀 + Elog + vuepress + Theme Plume + GitHub Pages + GitHub Action 一站式博客解决方案
 createTime: 2024/09/22 07:26:32
 permalink: /article/yuque-elog-vuepress-plume-github-pages-action-one-stop-blog-solution/
-excerpt: 写在前面前面博客说过，博客方案换来换去，没有优雅，只有更优雅。现在找到了满足我所有需求的方案。不出意外，这也将是最终的方案了，折腾了一天，写下来看看能不能帮到有相同想法的人。最终效果语雀上写文章。本地执行同步。推送到 GitHub。完成！如果觉得不符合你的要求，那么下面就不用浪费时间看了，除非...
 tags:
   - Blog
   - Vuepress
   - GitHub
 ---
-## 写在前面
 前面博客说过，博客方案换来换去，没有优雅，只有更优雅。现在找到了满足我所有需求的方案。不出意外，这也将是最终的方案了，折腾了一天，写下来看看能不能帮到有相同想法的人。
+
+<!-- more -->
 
 ### 最终效果
 + 语雀上写文章。

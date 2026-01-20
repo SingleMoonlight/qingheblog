@@ -2,16 +2,16 @@
 title: Docker 部署 Certbot 自动获取 SSL 证书
 createTime: 2024/08/27 14:31:05
 permalink: /article/docker-deploys-cerbot-to-automatically-obtain-ssl-certificates/
-excerpt: 现在云平台的官方免费 SSL 证书已经没有一年的了，有效期只有三个月，每次都需要手动申请和更新，挺麻烦的，好在现在有非常方便的自动化工具和平台，可以无限免费申请证书，最重要的还可以自动化续约，一次部署，就再也不用管了，非常方便。这里所介绍的方式就是通过容器化方式部署 certbot 工具，自动...
 tags:
   - Docker
   - Certbot
   - SSL
 ---
-## 写在前面
 现在云平台的官方免费 SSL 证书已经没有一年的了，有效期只有三个月，每次都需要手动申请和更新，挺麻烦的，好在现在有非常方便的自动化工具和平台，可以无限免费申请证书，最重要的还可以自动化续约，一次部署，就再也不用管了，非常方便。
 
-这里所介绍的方式就是通过容器化方式部署 certbot 工具，自动申请来自 let's encrypt 平台的免费 SSL 证书。
+这里所介绍的方式就是通过容器化方式部署`certbot`工具，自动申请来自`let's encrypt`平台的免费 SSL 证书。
+
+<!-- more -->
 
 ## 拉取镜像
 ```shell

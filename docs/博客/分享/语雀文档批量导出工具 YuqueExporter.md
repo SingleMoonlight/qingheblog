@@ -2,15 +2,15 @@
 title: 语雀文档批量导出工具 YuqueExporter
 createTime: 2024/11/30 08:21:57
 permalink: /article/yuque-exporter-a-document-bulk-export-tool/
-excerpt: 简介一个基于账号密码的个人语雀 Markdown 文档批量导出工具，使用简单便捷。支持按目录批量导出文档支持多知识库批量导出支持文档图片导出支持自定义文档处理器快速开始项目依赖puppeteer-core，使用puppeteer模拟用户的登录操作，因此请确保已安装谷歌浏览器。安装使用以下命令安...
 ---
-## 简介
 一个基于账号密码的个人语雀 Markdown 文档批量导出工具，使用简单便捷。
 
 + 支持按目录批量导出文档
 + 支持多知识库批量导出
 + 支持文档图片导出
 + 支持自定义文档处理器
+
+<!-- more -->
 
 ## 快速开始
 项目依赖`puppeteer-core`，使用`puppeteer`模拟用户的登录操作，因此请确保已安装谷歌浏览器。

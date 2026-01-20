@@ -2,16 +2,16 @@
 title: Docker 部署 Vue 项目
 createTime: 2024/05/18 06:58:03
 permalink: /article/docker-deploy-vue-project/
-excerpt: 写在前面Docker 部署 vue 项目和普通服务器部署 vue 项目实际上是一样的，不同之处仅在于部署目标不一样。一个是在Docker 容器中，一个是在宿主机中。因此在 Docker 中部署 vue 项目，本质上就是运行 Docker 容器中的 nginx。Docker 安装和基本使用请看这...
 tags:
   - Docker
   - Vue
 ---
-## 写在前面
 Docker 部署 vue 项目和普通服务器部署 vue 项目实际上是一样的，不同之处仅在于部署目标不一样。一个是在Docker 容器中，一个是在宿主机中。因此在 Docker 中部署 vue 项目，本质上就是运行 Docker 容器中的 nginx。
 
 > Docker 安装和基本使用请看[这里](https://blog.ifback.com/article/basic-use-of-docker/)。
 >
+
+<!-- more -->
 
 ## 安装 nginx 镜像
 1. 运行以下命令，拉取官方的 nginx 镜像

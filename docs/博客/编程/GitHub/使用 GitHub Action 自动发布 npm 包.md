@@ -2,15 +2,15 @@
 title: 使用 GitHub Action 自动发布 npm 包
 createTime: 2024/11/10 14:10:12
 permalink: /article/automatically-publish-npm-packages-using-github-action/
-excerpt: 写在前面如果自己开发了一个工具包，希望在不同的项目里使用，或者希望分享给别人使用，就可以将其封装上传到 npm，这样别人就可以很简单地一行命令安装和使用。一般情况下，需要在本地项目目录下登录 npm，然后使用 publish 命令推送。如果包有更新，就需要重复执行，不够方便。加上开发基本都会用...
 tags:
   - GitHub
   - npm
 ---
-## 写在前面
 如果自己开发了一个工具包，希望在不同的项目里使用，或者希望分享给别人使用，就可以将其封装上传到 npm，这样别人就可以很简单地一行命令安装和使用。
 
 一般情况下，需要在本地项目目录下登录 npm，然后使用 publish 命令推送。如果包有更新，就需要重复执行，不够方便。加上开发基本都会用 GitHub 进行版本管理，因此就可以借助于 GitHub Action 自动发布 npm 包。
+
+<!-- more -->
 
 ## 开始实践
 ### npm 账号注册

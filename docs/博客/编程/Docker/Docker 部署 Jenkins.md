@@ -2,13 +2,13 @@
 title: Docker 部署 Jenkins
 createTime: 2024/08/24 15:47:55
 permalink: /article/docker-deploy-jenkins/
-excerpt: 写在前面介绍如何在 Docker 中部署 Jenkins，包括拉取镜像、运行容器、配置 Nginx 反向代理、初始化、安装插件、配置管理员信息以及安全设置。安装 Jenkins 镜像拉取镜像docker pull jenkins/jenkins:lts目前 docker 被墙，使用 docke...
 tags:
   - Docker
   - Jenkins
 ---
-## 写在前面
 介绍如何在 Docker 中部署 Jenkins，包括拉取镜像、运行容器、配置 Nginx 反向代理、初始化、安装插件、配置管理员信息以及安全设置。
+
+<!-- more -->
 
 ## 安装 Jenkins 镜像
 ### 拉取镜像

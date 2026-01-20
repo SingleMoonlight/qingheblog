@@ -2,12 +2,12 @@
 title: 使用 GitHub Action 自动发布 VS Code 插件
 createTime: 2025/01/07 16:01:03
 permalink: /article/automatically-publish-vscode-plugins-using-github-action/
-excerpt: 写在前面为了满足自己的使用需求，这段时间抽空开发了一个 VS Code 插件，开发完成后准备打包发布。看了一下发布方式，觉得使用 vsce 命令行工具发布 VS Code 插件步骤比较繁琐，还是借助 GitHub Action 自动发布更优雅，整体过程和自动发布 npm 包基本相同，感兴趣的可...
 tags:
   - GitHub
 ---
-## 写在前面
 为了满足自己的使用需求，这段时间抽空开发了一个 VS Code 插件，开发完成后准备打包发布。看了一下发布方式，觉得使用 vsce 命令行工具发布 VS Code 插件步骤比较繁琐，还是借助 GitHub Action 自动发布更优雅，整体过程和自动发布 npm 包基本相同，感兴趣的可以看看这一篇[文章](https://blog.ifback.com/article/automatically-publish-npm-packages-using-github-action/)。
+
+<!-- more -->
 
 ## 创建 VS Code publisher
 去微软的插件市场[官网](https://marketplace.visualstudio.com/manage/createpublisher)注册创建发布者，里面的内容只有 Name 和 ID 是必填的，其他信息都可以不填。这里的 ID 在后续发布插件的时候会用到。

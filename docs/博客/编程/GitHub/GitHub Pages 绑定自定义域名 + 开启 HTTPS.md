@@ -2,13 +2,13 @@
 title: GitHub Pages 绑定自定义域名 + 开启 HTTPS
 createTime: 2024/09/21 09:19:34
 permalink: /article/github-pages-bind-custom-domain-and-enable-https/
-excerpt: DNS 配置顶级域名在云服务厂商的 DNS 配置下，分别创建 IPV4 和 IPV6 的解析记录，指向 GitHub Pages 的 IP 地址，这个地址是不会变化的。IPV4A记录，将域名解析指向 GitHub Pages 的 IP 地址。185.199.108.153 185.199.10...
 tags:
   - GitHub
   - SSL
 ---
-## 写在前面
 使用 GitHub Pagas 部署网站后，大家可能有绑定自定义域名的需求，操作很简单。另外，GitHub Pages 还免费提供了 HTTPS，开启更简单。
+
+<!-- more -->
 
 ## DNS 配置
 ### 顶级域名

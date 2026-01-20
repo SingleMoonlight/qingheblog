@@ -2,15 +2,15 @@
 title: 通过 DDNS 和 IPV6 部署可公网访问的个人网站
 createTime: 2024/10/18 16:04:13
 permalink: /article/deploy-personal-website-through-ddns-and-ipv6/
-excerpt: 写在前面如果想让局域网的个人网站能够在公网访问，就必须要公网地址，目前公网 IPV4 地址个人难以申请，但 IPV6 地址使用门槛就非常低，几乎都是支持的。本篇文章就接着这篇介绍的 Termux 部署个人网站，让这个网站可以在公网访问。如果你没有看过，可以先看一下。如果你有部署个人网站，或者其...
 tags:
   - IPV6
   - DDNS
 ---
-## 写在前面
 如果想让局域网的个人网站能够在公网访问，就必须要公网地址，目前公网 IPV4 地址个人难以申请，但 IPV6 地址使用门槛就非常低，几乎都是支持的。
 
 本篇文章就接着[这篇](https://blog.ifback.com/article/android-phone-deploy-personal-website-by-termux/)介绍的 Termux 部署个人网站，让这个网站可以在公网访问。如果你没有看过，可以先看一下。如果你有部署个人网站，或者其他需要通过公网访问的需求，也可以参考一下。
+
+<!-- more -->
 
 ## 开始实践
 ### 开启 IPV6

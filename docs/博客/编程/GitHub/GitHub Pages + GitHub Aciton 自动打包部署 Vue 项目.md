@@ -2,14 +2,16 @@
 title: GitHub Pages + GitHub Aciton 自动打包部署 Vue 项目
 createTime: 2024/09/21 06:08:22
 permalink: /article/github-pages-and-aciton-automatically-package-and-deploy-vue-projects/
-excerpt: 写在前面从萌生创建网站的想法开始，试过了很多建站方式，目前是云服务器自建博客前台，博文托管平台，各个子站容器化部署，更新使用 Jenkins 自动化部署和发布，配置、迁移、SSL 等都是通过脚本一键完成，可以说十分优雅，一定程度上，我觉得这将是最终形态，不会再折腾了。但是云服务器还是有成本的，...
 tags:
   - GitHub
 ---
-## 写在前面
 从萌生创建网站的想法开始，试过了很多建站方式，目前是云服务器自建博客前台，博文托管平台，各个子站容器化部署，更新使用 Jenkins 自动化部署和发布，配置、迁移、SSL 等都是通过脚本一键完成，可以说十分优雅，一定程度上，我觉得这将是最终形态，不会再折腾了。
 
 但是云服务器还是有成本的，本着能~~白嫖绝不花钱~~的态度，决定将几个网站都迁移到 GitHub 上。
+
+<!-- more -->
+
+
 
 这里介绍的 GitHub 的两种工具分别是 GitHub Pages 和 GitHub Action，前者用于托管静态网站，后者用于网站的自动化部署和发布。对于个人开发者来说，建站十分方便。
 
