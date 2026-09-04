@@ -25,13 +25,13 @@ tags:
 
 ![](../../../.vuepress/public/images/1732945681130-9bf8c956-a42b-442c-9393-bb0fdd915bbf.png)
 
-点击创建新的 Token，选择下面的`Classic Token`。
+点击创建新的 Token。
 
-![](../../../.vuepress/public/images/1732946319493-b1ced2f2-1875-4767-9687-3a2e3c58e274.png)
+![](../../../.vuepress/public/images/1788533857415-9e7c1ef1-d207-4be6-8df5-913edee3860b.png)
 
-然后给 Token 取一个名字，类型选择`<font style="color:rgb(6, 6, 7);">Automation</font>`。
+然后给 Token 取一个名字，勾选跳过 2FA，给读写权限（是否只给某个包权限，按需选择即可）。
 
-![](../../../.vuepress/public/images/1732948839465-cfcee221-752d-44eb-bef9-9e8443c4bcbd.png)
+![](../../../.vuepress/public/images/1788533952447-981035e9-9dab-42e4-b0f8-dd3635671125.png)
 
 最后点击创建，记得将 Token 复制保存下来，这里只会展示一次。
 
@@ -120,4 +120,9 @@ npm error 422 Unprocessable Entity - PUT https://registry.npmjs.org/@singlemoonl
 npm error code E403
 npm error 403 403 Forbidden - PUT https://registry.npmjs.org/@singlemoonlight%2fyuque-exporter - You cannot publish over the previously published versions: 1.0.0.
 ```
+
+## 补充
+二编发现 npm 提供了一种信任发布者的配置方式，比如 GitHub Acttion，可以在包的设置进行配置，可以避免 Token 泄露/过期的风险。
+
+![](../../../.vuepress/public/images/1788534187094-776d0eaa-b4ed-4ced-a2ef-92e42ecbf830.png)
 
